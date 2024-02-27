@@ -1,0 +1,776 @@
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at edu.asu.jmars.util.Util.updateRadii(Util.java:3918)
+	at edu.asu.jmars.util.Util.<clinit>(Util.java:3956)
+	at edu.asu.jmars.Main.<clinit>(Main.java:237)
+Caused by: java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:716)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:153)
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at edu.asu.jmars.util.Util.updateRadii(Util.java:3918)
+	at edu.asu.jmars.util.Util.<clinit>(Util.java:3956)
+	at edu.asu.jmars.Main.<clinit>(Main.java:237)
+Caused by: java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:716)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:153)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:144)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:80)
+	at org.geotools.referencing.ReferencingFactoryFinder.getServiceRegistry(ReferencingFactoryFinder.java:112)
+	at org.geotools.referencing.ReferencingFactoryFinder.getFactory(ReferencingFactoryFinder.java:193)
+	at org.geotools.referencing.ReferencingFactoryFinder.getCRSFactory(ReferencingFactoryFinder.java:284)
+	at org.geotools.referencing.CRS.parseWKT(CRS.java:482)
+	at edu.asu.jmars.layer.util.features.FeatureUtil.getJMarsCRS(FeatureUtil.java:273)
+	at edu.asu.jmars.layer.util.features.FeatureProviderSHP.<clinit>(FeatureProviderSHP.java:66)
+	... 3 more
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at edu.asu.jmars.util.Util.updateRadii(Util.java:3918)
+	at edu.asu.jmars.util.Util.<clinit>(Util.java:3956)
+	at edu.asu.jmars.Main.<clinit>(Main.java:237)
+Caused by: java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:716)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:153)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:144)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:80)
+	at org.geotools.referencing.ReferencingFactoryFinder.getServiceRegistry(ReferencingFactoryFinder.java:112)
+	at org.geotools.referencing.ReferencingFactoryFinder.getFactory(ReferencingFactoryFinder.java:193)
+	at org.geotools.referencing.ReferencingFactoryFinder.getCRSFactory(ReferencingFactoryFinder.java:284)
+	at org.geotools.referencing.CRS.parseWKT(CRS.java:482)
+	at edu.asu.jmars.layer.util.features.FeatureUtil.getJMarsCRS(FeatureUtil.java:273)
+	at edu.asu.jmars.layer.util.features.FeatureProviderSHP.<clinit>(FeatureProviderSHP.java:66)
+	... 3 more
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at edu.asu.jmars.util.Util.updateRadii(Util.java:3918)
+	at edu.asu.jmars.util.Util.<clinit>(Util.java:3956)
+	at edu.asu.jmars.Main.<clinit>(Main.java:237)
+Caused by: java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:716)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:153)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:144)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:80)
+	at org.geotools.referencing.ReferencingFactoryFinder.getServiceRegistry(ReferencingFactoryFinder.java:112)
+	at org.geotools.referencing.ReferencingFactoryFinder.getFactory(ReferencingFactoryFinder.java:193)
+	at org.geotools.referencing.ReferencingFactoryFinder.getCRSFactory(ReferencingFactoryFinder.java:284)
+	at org.geotools.referencing.CRS.parseWKT(CRS.java:482)
+	at edu.asu.jmars.layer.util.features.FeatureUtil.getJMarsCRS(FeatureUtil.java:273)
+	at edu.asu.jmars.layer.util.features.FeatureProviderSHP.<clinit>(FeatureProviderSHP.java:66)
+	... 3 more
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at edu.asu.jmars.util.Util.updateRadii(Util.java:3918)
+	at edu.asu.jmars.util.Util.<clinit>(Util.java:3956)
+	at edu.asu.jmars.Main.<clinit>(Main.java:237)
+Caused by: java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:716)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:153)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:144)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:80)
+	at org.geotools.referencing.ReferencingFactoryFinder.getServiceRegistry(ReferencingFactoryFinder.java:112)
+	at org.geotools.referencing.ReferencingFactoryFinder.getFactory(ReferencingFactoryFinder.java:193)
+	at org.geotools.referencing.ReferencingFactoryFinder.getCRSFactory(ReferencingFactoryFinder.java:284)
+	at org.geotools.referencing.CRS.parseWKT(CRS.java:482)
+	at edu.asu.jmars.layer.util.features.FeatureUtil.getJMarsCRS(FeatureUtil.java:273)
+	at edu.asu.jmars.layer.util.features.FeatureProviderSHP.<clinit>(FeatureProviderSHP.java:66)
+	... 3 more
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at edu.asu.jmars.util.Util.updateRadii(Util.java:3918)
+	at edu.asu.jmars.util.Util.<clinit>(Util.java:3956)
+	at edu.asu.jmars.Main.<clinit>(Main.java:237)
+Caused by: java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:716)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:153)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:144)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:80)
+	at org.geotools.referencing.ReferencingFactoryFinder.getServiceRegistry(ReferencingFactoryFinder.java:112)
+	at org.geotools.referencing.ReferencingFactoryFinder.getFactory(ReferencingFactoryFinder.java:193)
+	at org.geotools.referencing.ReferencingFactoryFinder.getCRSFactory(ReferencingFactoryFinder.java:284)
+	at org.geotools.referencing.CRS.parseWKT(CRS.java:482)
+	at edu.asu.jmars.layer.util.features.FeatureUtil.getJMarsCRS(FeatureUtil.java:273)
+	at edu.asu.jmars.layer.util.features.FeatureProviderSHP.<clinit>(FeatureProviderSHP.java:66)
+	... 3 more
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at edu.asu.jmars.util.Util.updateRadii(Util.java:3918)
+	at edu.asu.jmars.util.Util.<clinit>(Util.java:3956)
+	at edu.asu.jmars.Main.<clinit>(Main.java:237)
+Caused by: java.lang.IllegalArgumentException: org.opengis.referencing.datum.DatumFactory is not an ImageIO SPI class
+	at java.desktop/javax.imageio.spi.ServiceRegistry.checkClassAllowed(ServiceRegistry.java:716)
+	at java.desktop/javax.imageio.spi.ServiceRegistry.<init>(ServiceRegistry.java:117)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:153)
+	at org.geotools.factory.FactoryRegistry.<init>(FactoryRegistry.java:144)
+	at org.geotools.factory.FactoryCreator.<init>(FactoryCreator.java:80)
+	at org.geotools.referencing.ReferencingFactoryFinder.getServiceRegistry(ReferencingFactoryFinder.java:112)
+	at org.geotools.referencing.ReferencingFactoryFinder.getFactory(ReferencingFactoryFinder.java:193)
+	at org.geotools.referencing.ReferencingFactoryFinder.getCRSFactory(ReferencingFactoryFinder.java:284)
+	at org.geotools.referencing.CRS.parseWKT(CRS.java:482)
+	at edu.asu.jmars.layer.util.features.FeatureUtil.getJMarsCRS(FeatureUtil.java:273)
+	at edu.asu.jmars.layer.util.features.FeatureProviderSHP.<clinit>(FeatureProviderSHP.java:66)
+	... 3 more
+2024-02-26 16:27:14.800 Main.main	UI theme is in dark mode.2024-02-26 16:27:14.800 Main.main	
+2024-02-27 10:03:59.241 Main.main	UI theme is in dark mode.2024-02-27 10:03:59.241 Main.main	
+2024-02-27 10:04:09.999 Main.startupInCyl	You're using the CYLINDRICAL projection.2024-02-27 10:04:09.999 Main.startupInCyl	
+Exception in thread "AWT-EventQueue-0" java.lang.UnsatisfiedLinkError: Can't load library: C:\Users\Meteor\jmars\default\trunk\natives\windows-i586\\gluegen_rt.dll
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.jogamp.common.jvm.JNILibLoaderBase.loadLibraryInternal(JNILibLoaderBase.java:625)
+	at com.jogamp.common.jvm.JNILibLoaderBase.access$000(JNILibLoaderBase.java:64)
+	at com.jogamp.common.jvm.JNILibLoaderBase$DefaultAction.loadLibrary(JNILibLoaderBase.java:107)
+	at com.jogamp.common.jvm.JNILibLoaderBase.loadLibrary(JNILibLoaderBase.java:488)
+	at com.jogamp.common.os.DynamicLibraryBundle$GlueJNILibLoader.loadLibrary(DynamicLibraryBundle.java:427)
+	at com.jogamp.common.os.Platform$1.run(Platform.java:321)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.jogamp.common.os.Platform.<clinit>(Platform.java:290)
+	at com.jogamp.opengl.GLProfile.<clinit>(GLProfile.java:154)
+	at edu.asu.jmars.viz3d.ThreeDManager.<init>(ThreeDManager.java:145)
+	at edu.asu.jmars.viz3d.ThreeDManager.getInstance(ThreeDManager.java:119)
+	at edu.asu.jmars.Main.<init>(Main.java:774)
+	at edu.asu.jmars.Main$9.run(Main.java:2091)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at edu.asu.jmars.swing.PopupEventQueue.dispatchEvent(PopupEventQueue.java:42)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2024-02-27 10:04:40.710 Main.8.actionPerformed	Splash screen failed to hide in time. Timeout dialog displayed.2024-02-27 10:04:40.710 Main.8.actionPerformed	
+2024-02-27 10:04:40.710 Main.8.actionPerformed	Latest splash screen stage: 3D init: if stuck here, use advanced->disable 3D on login screen2024-02-27 10:04:40.710 Main.8.actionPerformed	
+2024-02-27 10:06:13.762 Main.main	UI theme is in dark mode.2024-02-27 10:06:13.762 Main.main	
+2024-02-27 10:06:19.819 Main.startupInCyl	You're using the CYLINDRICAL projection.2024-02-27 10:06:19.819 Main.startupInCyl	
+Exception in thread "AWT-EventQueue-0" java.lang.UnsatisfiedLinkError: Can't load library: C:\Users\Meteor\jmars\default\trunk\natives\windows-i586\\gluegen_rt.dll
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.jogamp.common.jvm.JNILibLoaderBase.loadLibraryInternal(JNILibLoaderBase.java:625)
+	at com.jogamp.common.jvm.JNILibLoaderBase.access$000(JNILibLoaderBase.java:64)
+	at com.jogamp.common.jvm.JNILibLoaderBase$DefaultAction.loadLibrary(JNILibLoaderBase.java:107)
+	at com.jogamp.common.jvm.JNILibLoaderBase.loadLibrary(JNILibLoaderBase.java:488)
+	at com.jogamp.common.os.DynamicLibraryBundle$GlueJNILibLoader.loadLibrary(DynamicLibraryBundle.java:427)
+	at com.jogamp.common.os.Platform$1.run(Platform.java:321)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.jogamp.common.os.Platform.<clinit>(Platform.java:290)
+	at com.jogamp.opengl.GLProfile.<clinit>(GLProfile.java:154)
+	at edu.asu.jmars.viz3d.ThreeDManager.<init>(ThreeDManager.java:145)
+	at edu.asu.jmars.viz3d.ThreeDManager.getInstance(ThreeDManager.java:119)
+	at edu.asu.jmars.Main.<init>(Main.java:774)
+	at edu.asu.jmars.Main$9.run(Main.java:2091)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at edu.asu.jmars.swing.PopupEventQueue.dispatchEvent(PopupEventQueue.java:42)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2024-02-27 10:06:50.459 Main.8.actionPerformed	Splash screen failed to hide in time. Timeout dialog displayed.2024-02-27 10:06:50.459 Main.8.actionPerformed	
+2024-02-27 10:06:50.459 Main.8.actionPerformed	Latest splash screen stage: 3D init: if stuck here, use advanced->disable 3D on login screen2024-02-27 10:06:50.459 Main.8.actionPerformed	
+2024-02-27 10:10:19.709 Main.main	UI theme is in dark mode.2024-02-27 10:10:19.709 Main.main	
+2024-02-27 10:10:23.108 Main.startupInCyl	You're using the CYLINDRICAL projection.2024-02-27 10:10:23.108 Main.startupInCyl	
+2024-02-27 10:10:23.802 Main.initializeJMARSGUI	=======================New Login Tue Feb 27 10:10:23 MST 2024===============================2024-02-27 10:10:23.802 Main.initializeJMARSGUI	
+2024-02-27 10:10:24.422 TimeField.TimeField	No crafts available.2024-02-27 10:10:24.422 TimeField.TimeField	
+2024-02-27 10:10:25.355 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 14=edu.asu.jmars.layer.dynamap.DynaMapFactory2024-02-27 10:10:25.355 LViewFactory.refreshAllLViews	
+2024-02-27 10:10:25.356 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 15=net.signalpro.layer.traverse.TraverseFactory2024-02-27 10:10:25.356 LViewFactory.refreshAllLViews	
+2024-02-27 10:10:25.356 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 16=net.signalpro.layer.traintool.TrainToolFactory2024-02-27 10:10:25.356 LViewFactory.refreshAllLViews	
+2024-02-27 10:10:25.356 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 17=net.signalpro.layer.eval.EvalFactory2024-02-27 10:10:25.356 LViewFactory.refreshAllLViews	
+2024-02-27 10:10:25.356 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 18=net.signalpro.layer.rings.RingsFactory2024-02-27 10:10:25.356 LViewFactory.refreshAllLViews	
+2024-02-27 10:10:32.108 LViewManager.getWorldBoundingPoints	ret[Ljava.awt.geom.Point2D;@4a0ace2024-02-27 10:10:32.108 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:10:32.250 LViewManager.getWorldBoundingPoints	ret[Ljava.awt.geom.Point2D;@18ed10a2024-02-27 10:10:32.250 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:10:42.762 LViewManager.getWorldBoundingPoints	ret[Ljava.awt.geom.Point2D;@5b52022024-02-27 10:10:42.762 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:12:43.192 Main.main	UI theme is in dark mode.2024-02-27 10:12:43.192 Main.main	
+2024-02-27 10:12:46.228 Main.startupInCyl	You're using the CYLINDRICAL projection.2024-02-27 10:12:46.228 Main.startupInCyl	
+2024-02-27 10:12:46.918 Main.initializeJMARSGUI	=======================New Login Tue Feb 27 10:12:46 MST 2024===============================2024-02-27 10:12:46.918 Main.initializeJMARSGUI	
+2024-02-27 10:12:47.623 TimeField.TimeField	No crafts available.2024-02-27 10:12:47.623 TimeField.TimeField	
+2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 14=edu.asu.jmars.layer.dynamap.DynaMapFactory2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	
+2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 15=net.signalpro.layer.traverse.TraverseFactory2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	
+2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 16=net.signalpro.layer.traintool.TrainToolFactory2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	
+2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 17=net.signalpro.layer.eval.EvalFactory2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	
+2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 18=net.signalpro.layer.rings.RingsFactory2024-02-27 10:12:48.434 LViewFactory.refreshAllLViews	
+2024-02-27 10:12:51.753 LViewManager.getWorldBoundingPoints	retPoint2D.Double[167.5, -6.0625]Point2D.Double[192.53125, 6.09375]2024-02-27 10:12:51.753 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:12:51.884 LViewManager.getWorldBoundingPoints	retPoint2D.Double[167.5, -6.0625]Point2D.Double[192.53125, 6.09375]2024-02-27 10:12:51.884 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:13:04.382 LViewManager.getWorldBoundingPoints	retPoint2D.Double[165.25, -7.5]Point2D.Double[194.78125, 7.53125]2024-02-27 10:13:04.382 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:13:18.766 LViewManager.getWorldBoundingPoints	retPoint2D.Double[162.65625, -7.5]Point2D.Double[197.34375, 7.53125]2024-02-27 10:13:18.766 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:16:24.009 LViewManager.getWorldBoundingPoints	retPoint2D.Double[168.84375, -9.125]Point2D.Double[203.53125, 5.90625]2024-02-27 10:16:24.009 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:16:24.111 LViewManager.getWorldBoundingPoints	retPoint2D.Double[177.515625, -5.375]Point2D.Double[194.859375, 2.140625]2024-02-27 10:16:24.111 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:16:49.886 LViewManager.getWorldBoundingPoints	retPoint2D.Double[178.640625, -4.65625]Point2D.Double[193.734375, 1.421875]2024-02-27 10:16:49.886 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:16:53.471 LViewManager.getWorldBoundingPoints	retPoint2D.Double[172.515625, -8.5]Point2D.Double[199.859375, 5.265625]2024-02-27 10:16:53.471 LViewManager.getWorldBoundingPoints	
+Exception in thread "Map Processor-5-thread-18" Exception in thread "Map Processor-5-thread-5" java.lang.OutOfMemoryError: Java heap space
+	at java.awt.image.DataBufferDouble.<init>(Unknown Source)
+	at java.awt.image.BandedSampleModel.createDataBuffer(Unknown Source)
+	at java.awt.image.Raster.createWritableRaster(Unknown Source)
+	at edu.asu.jmars.layer.map2.stages.composite.BandAggregator.makeBufferedImage(BandAggregator.java:77)
+	at edu.asu.jmars.layer.map2.stages.composite.CompositeStage.process(CompositeStage.java:109)
+	at edu.asu.jmars.layer.map2.stages.composite.BandAggregator.process(BandAggregator.java:63)
+	at edu.asu.jmars.layer.map2.MapProcessor.run(MapProcessor.java:127)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+java.lang.OutOfMemoryError: Java heap space
+	at java.awt.image.DataBufferDouble.<init>(Unknown Source)
+	at java.awt.image.BandedSampleModel.createDataBuffer(Unknown Source)
+	at java.awt.image.Raster.createWritableRaster(Unknown Source)
+	at edu.asu.jmars.layer.map2.stages.composite.BandAggregator.makeBufferedImage(BandAggregator.java:77)
+	at edu.asu.jmars.layer.map2.stages.composite.CompositeStage.process(CompositeStage.java:109)
+	at edu.asu.jmars.layer.map2.stages.composite.BandAggregator.process(BandAggregator.java:63)
+	at edu.asu.jmars.layer.map2.MapProcessor.run(MapProcessor.java:127)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "Map Processor-5-thread-37" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-31" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-28" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-3" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-1" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-5" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-8" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-7" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-9" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-6" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-11" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-4" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-10" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-13" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-14" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-17" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-16" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-15" Exception in thread "Fuzzy Tile Cache Loader-4-thread-12" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-2" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-20" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-21" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-19" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-18" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-15" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-43" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-23" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-24" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-25" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-21" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-44" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-36" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-22" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-27" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-28" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-31" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-26" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-24" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-30" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-29" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-33" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-34" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-37" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-36" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-6" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-38" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-35" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-32" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-42" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-43" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-12" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-45" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-44" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-27" Exception in thread "Fuzzy Tile Cache Loader-4-thread-39" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-40" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-26" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-46" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-50" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-41" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-52" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-53" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-8" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-47" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-54" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-55" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-48" Exception in thread "Fuzzy Tile Cache Loader-4-thread-56" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-57" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-49" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-4" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-51" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-16" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-30" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-33" java.lang.OutOfMemoryError: Java heap space
+2024-02-27 10:17:34.412 LViewManager.getWorldBoundingPoints	retPoint2D.Double[177.515625, -5.375]Point2D.Double[194.859375, 2.140625]2024-02-27 10:17:34.412 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:17:34.927 LViewManager.getWorldBoundingPoints	retPoint2D.Double[177.515625, -5.375]Point2D.Double[194.859375, 2.140625]2024-02-27 10:17:34.927 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:22:48.254 LViewManager.getWorldBoundingPoints	retPoint2D.Double[172.515625, -8.5]Point2D.Double[199.859375, 5.265625]2024-02-27 10:22:48.254 LViewManager.getWorldBoundingPoints	
+Exception in thread "Map Processor-5-thread-13" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-60" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-39" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-51" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-9" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-9" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-3" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-3" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-2" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-23" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-7" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-6" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-10" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-11" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-2" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-29" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-4" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-12" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-11" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-60" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-57" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-47" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-61" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-58" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-50" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-13" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-14" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-8" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-62" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-18" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-45" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-42" Exception in thread "Map Processor-5-thread-62" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-63" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-25" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-48" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-19" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-32" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-40" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-35" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-65" java.lang.OutOfMemoryError: Java heap space
+2024-02-27 10:23:02.530 Main.3.run	Auto-save took too long (10959 ms)2024-02-27 10:23:02.530 Main.3.run	
+2024-02-27 10:23:03.962 LViewManager.getWorldBoundingPoints	retPoint2D.Double[177.515625, -5.375]Point2D.Double[194.859375, 2.140625]2024-02-27 10:23:03.962 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:23:08.936 LViewManager.getWorldBoundingPoints	retPoint2D.Double[177.515625, -5.375]Point2D.Double[194.859375, 2.140625]2024-02-27 10:23:08.937 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:23:09.925 LViewManager.getWorldBoundingPoints	retPoint2D.Double[177.515625, -5.375]Point2D.Double[194.859375, 2.140625]2024-02-27 10:23:09.925 LViewManager.getWorldBoundingPoints	
+Exception in thread "Tile Cache Loader-3-thread-20" Exception in thread "Map Processor-5-thread-59" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-72" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-88" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-54" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-23" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-68" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-34" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-49" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-22" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-66" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-79" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-10" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-41" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-52" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-64" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-80" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-97" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-25" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-75" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-98" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-16" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-69" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-103" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-1" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-46" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-96" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-17" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-70" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-105" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-104" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-82" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-106" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-83" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-56" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-87" java.lang.OutOfMemoryError: Java heap space
+2024-02-27 10:23:29.115 LViewManager.getWorldBoundingPoints	retPoint2D.Double[177.515625, -6.0]Point2D.Double[194.859375, 2.765625]2024-02-27 10:23:29.206 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:26:42.031 LViewManager.getWorldBoundingPoints	retPoint2D.Double[177.515625, -3.234375]Point2D.Double[194.859375, -0.015625]2024-02-27 10:26:42.031 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:44:03.815 Main.main	UI theme is in dark mode.2024-02-27 10:44:03.815 Main.main	
+2024-02-27 10:44:10.907 Main.startupInCyl	You're using the CYLINDRICAL projection.2024-02-27 10:44:10.907 Main.startupInCyl	
+2024-02-27 10:44:11.825 Main.initializeJMARSGUI	=======================New Login Tue Feb 27 10:44:11 MST 2024===============================2024-02-27 10:44:11.826 Main.initializeJMARSGUI	
+2024-02-27 10:44:12.817 TimeField.TimeField	No crafts available.2024-02-27 10:44:12.817 TimeField.TimeField	
+2024-02-27 10:44:14.039 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 14=edu.asu.jmars.layer.dynamap.DynaMapFactory2024-02-27 10:44:14.039 LViewFactory.refreshAllLViews	
+2024-02-27 10:44:14.039 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 15=net.signalpro.layer.traverse.TraverseFactory2024-02-27 10:44:14.039 LViewFactory.refreshAllLViews	
+2024-02-27 10:44:14.040 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 16=net.signalpro.layer.traintool.TrainToolFactory2024-02-27 10:44:14.040 LViewFactory.refreshAllLViews	
+2024-02-27 10:44:14.040 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 17=net.signalpro.layer.eval.EvalFactory2024-02-27 10:44:14.040 LViewFactory.refreshAllLViews	
+2024-02-27 10:44:14.040 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 18=net.signalpro.layer.rings.RingsFactory2024-02-27 10:44:14.040 LViewFactory.refreshAllLViews	
+2024-02-27 10:44:18.619 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:44:18.619 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:44:18.619 LViewManager.getWorldBoundingPoints	retPoint2D.Double[164.90625, -6.0625]Point2D.Double[195.09375, 6.09375]2024-02-27 10:44:18.619 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:44:18.888 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:44:18.888 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:44:18.888 LViewManager.getWorldBoundingPoints	retPoint2D.Double[164.90625, -6.0625]Point2D.Double[195.09375, 6.09375]2024-02-27 10:44:18.888 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:44:26.538 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:44:26.538 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:44:26.538 LViewManager.getWorldBoundingPoints	retPoint2D.Double[162.65625, -7.5]Point2D.Double[197.34375, 7.53125]2024-02-27 10:44:26.538 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:44:55.852 LViewManager.getWorldBoundingPoints	retPoint2D.Double[177.515625, -5.15625]Point2D.Double[194.859375, 1.921875]2024-02-27 10:44:55.852 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:45:01.800 LViewManager.getWorldBoundingPoints	retPoint2D.Double[171.28125, -3.90625]Point2D.Double[188.625, 3.171875]2024-02-27 10:45:01.800 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:47:11.374 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:47:11.374 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:47:11.374 LViewManager.getWorldBoundingPoints	retPoint2D.Double[149.03125, -6.21875]Point2D.Double[183.71875, 8.8125]2024-02-27 10:47:11.375 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:47:24.838 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:47:24.838 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:47:24.838 LViewManager.getWorldBoundingPoints	retPoint2D.Double[173.0, -5.6875]Point2D.Double[207.6875, 9.34375]2024-02-27 10:47:24.838 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:47:31.006 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:47:31.007 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:47:31.007 LViewManager.getWorldBoundingPoints	retPoint2D.Double[176.125, -8.96875]Point2D.Double[210.8125, 6.0625]2024-02-27 10:47:31.007 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:47:57.759 Main.main	UI theme is in dark mode.2024-02-27 10:47:57.759 Main.main	
+2024-02-27 10:48:02.174 Main.startupInCyl	You're using the CYLINDRICAL projection.2024-02-27 10:48:02.174 Main.startupInCyl	
+2024-02-27 10:48:02.922 Main.initializeJMARSGUI	=======================New Login Tue Feb 27 10:48:02 MST 2024===============================2024-02-27 10:48:02.923 Main.initializeJMARSGUI	
+2024-02-27 10:48:03.818 TimeField.TimeField	No crafts available.2024-02-27 10:48:03.818 TimeField.TimeField	
+2024-02-27 10:48:05.091 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 14=edu.asu.jmars.layer.dynamap.DynaMapFactory2024-02-27 10:48:05.091 LViewFactory.refreshAllLViews	
+2024-02-27 10:48:05.091 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 15=net.signalpro.layer.traverse.TraverseFactory2024-02-27 10:48:05.091 LViewFactory.refreshAllLViews	
+2024-02-27 10:48:05.092 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 16=net.signalpro.layer.traintool.TrainToolFactory2024-02-27 10:48:05.092 LViewFactory.refreshAllLViews	
+2024-02-27 10:48:05.092 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 17=net.signalpro.layer.eval.EvalFactory2024-02-27 10:48:05.092 LViewFactory.refreshAllLViews	
+2024-02-27 10:48:05.093 LViewFactory.refreshAllLViews	UNKNOWN LAYER TYPE IN CONFIG FILE: 18=net.signalpro.layer.rings.RingsFactory2024-02-27 10:48:05.093 LViewFactory.refreshAllLViews	
+2024-02-27 10:48:10.082 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:10.082 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:10.082 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:10.082 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:10.082 LViewManager.getWorldBoundingPoints	retPoint2D.Double[164.90625, -6.0625]Point2D.Double[195.09375, 6.09375]2024-02-27 10:48:10.083 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:18.530 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:18.530 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:18.530 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:18.530 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:18.530 LViewManager.getWorldBoundingPoints	retPoint2D.Double[162.65625, -7.5]Point2D.Double[197.34375, 7.53125]2024-02-27 10:48:18.530 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:27.501 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:27.501 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:27.501 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:27.501 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:27.501 LViewManager.getWorldBoundingPoints	retPoint2D.Double[165.0625, -16.65625]Point2D.Double[199.75, -1.625]2024-02-27 10:48:27.501 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:32.770 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:32.770 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:32.770 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:32.770 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:32.771 LViewManager.getWorldBoundingPoints	retPoint2D.Double[174.125, -19.625]Point2D.Double[208.8125, -4.59375]2024-02-27 10:48:32.771 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:40.873 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:40.873 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:40.873 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:40.873 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:40.873 LViewManager.getWorldBoundingPoints	retPoint2D.Double[159.15625, -17.53125]Point2D.Double[193.84375, -2.5]2024-02-27 10:48:40.874 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:41.007 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:41.007 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:41.007 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:41.007 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:41.007 LViewManager.getWorldBoundingPoints	retPoint2D.Double[142.625, -13.21875]Point2D.Double[177.3125, 1.8125]2024-02-27 10:48:41.007 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:42.788 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:42.788 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:42.789 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:48:42.789 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:48:42.789 LViewManager.getWorldBoundingPoints	retPoint2D.Double[136.3125, -13.25]Point2D.Double[171.0, 1.78125]2024-02-27 10:48:42.789 LViewManager.getWorldBoundingPoints	
+Exception in thread "Map Processor-5-thread-8" java.lang.OutOfMemoryError: Java heap space
+	at java.awt.image.DataBufferByte.<init>(Unknown Source)
+	at java.awt.image.ComponentSampleModel.createDataBuffer(Unknown Source)
+	at java.awt.image.Raster.createWritableRaster(Unknown Source)
+	at java.awt.image.BufferedImage.getData(Unknown Source)
+	at java.awt.image.BufferedImage.copyData(Unknown Source)
+	at edu.asu.jmars.layer.map2.MapData.copyImage(MapData.java:423)
+	at edu.asu.jmars.layer.map2.MapData.getDeepCopy(MapData.java:287)
+	at edu.asu.jmars.layer.map2.MapRetriever.getData(MapRetriever.java:232)
+	at edu.asu.jmars.layer.map2.MapProcessor.run(MapProcessor.java:102)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "Tile Cache Loader-3-thread-5" java.lang.OutOfMemoryError: Java heap space
+	at java.awt.image.DataBufferByte.<init>(Unknown Source)
+	at java.awt.image.ComponentSampleModel.createDataBuffer(Unknown Source)
+	at java.awt.image.Raster.createWritableRaster(Unknown Source)
+	at javax.imageio.ImageTypeSpecifier.createBufferedImage(Unknown Source)
+	at javax.imageio.ImageReader.getDestination(Unknown Source)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(Unknown Source)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(Unknown Source)
+	at javax.imageio.ImageIO.read(Unknown Source)
+	at javax.imageio.ImageIO.read(Unknown Source)
+	at edu.asu.jmars.layer.map2.CacheManager.getTile(CacheManager.java:191)
+	at edu.asu.jmars.layer.map2.CacheManager$TileLoader.fetchTile(CacheManager.java:300)
+	at edu.asu.jmars.layer.map2.CacheManager$TileLoader.run(CacheManager.java:286)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "Map Processor-5-thread-36" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-9" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-31" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-18" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-13" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-17" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-4" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-1" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-32" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-7" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-28" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-20" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-19" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-10" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-6" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-11" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-38" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-3" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-21" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-52" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-26" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-30" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-16" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-13" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-33" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-8" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-15" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-6" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-19" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-21" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-41" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-11" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-2" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-20" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-24" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-23" Exception in thread "Map Processor-5-thread-48" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-15" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-18" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-45" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-40" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-7" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-28" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-49" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-50" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-2" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-56" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-37" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-39" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-58" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-54" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-59" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-57" java.lang.OutOfMemoryError: Java heap space
+2024-02-27 10:49:04.776 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:49:04.876 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:49:04.877 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:49:04.877 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:49:04.877 LViewManager.getWorldBoundingPoints	retPoint2D.Double[121.3125, -10.28125]Point2D.Double[156.0, 4.75]2024-02-27 10:49:04.877 LViewManager.getWorldBoundingPoints	
+Exception in thread "Map Processor-5-thread-1" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-27" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-17" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-31" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-29" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-1" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-12" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-4" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-29" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-26" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-33" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-30" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-38" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-61" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-7" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-32" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-22" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-6" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-5" Exception in thread "Fuzzy Tile Cache Loader-4-thread-2" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-8" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-40" Exception in thread "Tile Cache Loader-3-thread-39" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-35" Exception in thread "Fuzzy Tile Cache Loader-4-thread-12" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-24" Exception in thread "Fuzzy Tile Cache Loader-4-thread-11" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-42" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-10" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-15" Exception in thread "Tile Cache Loader-3-thread-43" java.lang.OutOfMemoryError: Java heap space
+2024-02-27 10:49:15.762 WMSMapSource.fetchTile	An Exception was caught and is being re-thrown in a map tile request: Connection pool shut downjava.lang.OutOfMemoryError: Java heap space2024-02-27 10:49:15.763 WMSMapSource.fetchTile	
+
+2024-02-27 10:49:16.761 Exception in thread "Tile Cache Loader-3-thread-41" WMSMapSource.fetchTileException in thread "Fuzzy Tile Cache Loader-4-thread-14" java.lang.OutOfMemoryError: Java heap space
+	An Exception was caught and is being re-thrown in a map tile request: Request abortedException in thread "Fuzzy Tile Cache Loader-4-thread-3" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-13" Exception in thread "Fuzzy Tile Cache Loader-4-thread-18" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+2024-02-27 10:49:17.849 java.lang.OutOfMemoryError: Java heap space
+WMSMapSource.fetchTile	
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-19" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "WMSMapSource-interrupt-handler" java.lang.NullPointerException
+	at edu.asu.jmars.util.JmarsHttpRequest.abort(JmarsHttpRequest.java:440)
+	at edu.asu.jmars.layer.map2.WMSMapSource$1.run(WMSMapSource.java:360)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-20" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-14" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-9" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-46" Exception in thread "Tile Cache Loader-3-thread-45" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-17" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-44" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-16" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-25" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-22" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-36" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-48" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-25" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-24" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-23" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-26" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-53" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-34" Exception in thread "Fuzzy Tile Cache Loader-4-thread-29" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-44" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-42" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-14" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-54" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-28" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-56" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-37" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-47" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-57" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-32" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-60" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-30" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-33" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-58" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-61" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-35" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-10" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-59" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-63" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-62" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-64" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-62" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-55" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-64" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-9" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-47" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-66" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-69" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-68" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-70" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-51" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-72" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-67" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-65" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-73" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-49" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-22" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-72" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-68" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-76" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-73" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-75" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-75" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-74" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-71" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-77" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-52" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-55" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-83" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-84" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-81" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-80" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-79" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-87" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-88" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-90" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-66" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-5" Exception in thread "Map Processor-5-thread-76" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-86" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-71" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-91" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-74" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-23" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-89" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-97" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-95" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-4" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-96" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-79" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-99" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-50" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-77" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-78" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-78" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-82" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-43" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-80" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-27" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-81" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-83" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-82" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-102" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-65" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-91" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-69" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-92" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-95" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-96" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-12" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-97" java.lang.OutOfMemoryError: Java heap space
+2024-02-27 10:50:24.755 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:50:24.755 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:24.755 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:50:24.755 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:24.755 LViewManager.getWorldBoundingPoints	retPoint2D.Double[108.9375, -6.5]Point2D.Double[143.625, 8.53125]2024-02-27 10:50:24.755 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:29.213 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:50:29.213 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:29.213 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:50:29.214 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:29.214 LViewManager.getWorldBoundingPoints	retPoint2D.Double[94.25, -1.09375]Point2D.Double[128.9375, 13.9375]2024-02-27 10:50:29.214 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:29.349 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:50:29.349 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:29.349 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:50:29.349 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:29.349 LViewManager.getWorldBoundingPoints	retPoint2D.Double[91.75, -0.96875]Point2D.Double[126.4375, 14.0625]2024-02-27 10:50:29.349 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:30.183 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:50:30.183 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:30.184 LViewManager.getWorldBoundingPoints	screen x0.0screen y0.02024-02-27 10:50:30.184 LViewManager.getWorldBoundingPoints	
+2024-02-27 10:50:30.184 LViewManager.getWorldBoundingPoints	retPoint2D.Double[84.84375, -1.34375]Point2D.Double[119.53125, 13.6875]2024-02-27 10:50:30.184 LViewManager.getWorldBoundingPoints	
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-21" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-115" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-99" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-63" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-103" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-94" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-104" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-98" Exception in thread "Map Processor-5-thread-84" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-108" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-107" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-34" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-109" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-106" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-110" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-37" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-105" Exception in thread "Tile Cache Loader-3-thread-113" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-110" Exception in thread "Fuzzy Tile Cache Loader-4-thread-36" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-116" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-35" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-115" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-39" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-41" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-92" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-31" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-86" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-40" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-118" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-42" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-101" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-27" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-38" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-45" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-117" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-111" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-121" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-123" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-119" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-124" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-46" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-43" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-48" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-49" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-126" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-51" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-47" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-125" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-122" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-93" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-50" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-52" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-128" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Fuzzy Tile Cache Loader-4-thread-44" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-130" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-100" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-133" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-113" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-132" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-134" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-127" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-85" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-137" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-114" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-129" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-108" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-114" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-120" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-142" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-138" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-145" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-144" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-112" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Tile Cache Loader-3-thread-146" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-98" Exception in thread "Tile Cache Loader-3-thread-143" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Map Processor-5-thread-109" java.lang.OutOfMemoryError: Java heap space

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="15px" viewBox="0 0 11 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>bookmark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-UI" transform="translate(-621.000000, -119.000000)" fill="#CBCBCB" fill-rule="nonzero">
+            <g id="bookmark" transform="translate(621.000000, 119.000000)">
+                <path d="M0,14.3846154 L0,1.34855769 C0,0.603760517 0.603760517,0 1.34855769,0 L9.43990385,0 C10.184701,0 10.7884615,0.603760517 10.7884615,1.34855769 L10.7884615,14.3846154 L5.39423077,11.2379808 L0,14.3846154 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

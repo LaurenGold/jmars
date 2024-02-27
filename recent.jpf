@@ -1,0 +1,137 @@
+<map>
+  <entry>
+    <string>Mars</string>
+    <list>
+      <edu.asu.jmars.places.Place>
+        <name>0°N, 0°E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>5.7055094273191895E-15</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>32</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>-9.156°N, 2.406°E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>357.59375</x>
+          <y>-9.156250000000007</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>32</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>-12.125°N, 11.469°E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>348.53125</x>
+          <y>-12.125000000000007</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>32</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>-5.719°N, 339.969°E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>20.03124999999998</x>
+          <y>-5.718750000000006</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>32</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>-5.75°N, 333.656°E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>26.34375000000001</x>
+          <y>-5.750000000000005</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>32</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>-2.781°N, 318.656°E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>41.343750000000014</x>
+          <y>-2.781250000000006</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>32</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>1°N, 306.281°E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>53.718750000000014</x>
+          <y>0.9999999999999944</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>32</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>6.531°N, 289.094°E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>70.90625</x>
+          <y>6.531249999999997</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>32</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>6.156°N, 282.188°E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>77.8125</x>
+          <y>6.1562499999999964</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>32</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+    </list>
+  </entry>
+  <entry>
+    <string>Mars-version</string>
+    <int>8</int>
+  </entry>
+</map>

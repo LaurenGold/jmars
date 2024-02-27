@@ -1,0 +1,1527 @@
+<list>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.profile.ProfileFactory</factoryName>
+    <layerName>Profile</layerName>
+    <createParms class="edu.asu.jmars.layer.profile.ProfileLView$SavedParams">
+      <isChartFocusPanelDocked>false</isChartFocusPanelDocked>
+      <profileObjects/>
+      <mapsources>
+        <edu.asu.jmars.layer.map2.WMSMapSource>
+          <name>MOLA_128ppd_topo</name>
+          <server class="edu.asu.jmars.layer.map2.WMSMapServer" serialization="custom">
+            <unserializable-parents/>
+            <edu.asu.jmars.layer.map2.WMSMapServer>
+              <default>
+                <maxRequests>5</maxRequests>
+                <timeout>10000</timeout>
+                <userDefined>false</userDefined>
+                <name>default</name>
+                <title>Mars Spaceflight Facility Map Server</title>
+                <uri serialization="custom">
+                  <java.net.URI>
+                    <default>
+                      <string>http://jmars.mars.asu.edu/maps/getCapabilities.php?body=mars</string>
+                    </default>
+                  </java.net.URI>
+                </uri>
+              </default>
+            </edu.asu.jmars.layer.map2.WMSMapServer>
+          </server>
+          <title>MOLA 128ppd Elevation</title>
+          <abstractText>This data product is a topographic map of Mars at a resolution of 0.00781 (1/128) by 0.00781 degrees, based on altimetry data acquired by the Mars Global Surveyor MOLA instrument and accumulated over the course of the primary and extended mission. The MOLA Precision Experiment Data Records (PEDRs) are the source for this data set. The map is in the form of a binary table with one row for each 0.00781-degree latitude. Map coordinates use the IAU2000 reference system, and areoid defined by the Goddard Mars potential model GMM3 (mgm1025) evaluated to degree and order 50. The binned data include all MOLA nadir observations from the Mapping Phase through the Primary and Extended missions, from the end of aerobraking in February 1999 through June 2001. Additionally, off-nadir observations of the north pole are included from 87 N latitude and northward, taken during the spring of 1998, and of both poles taken during Mapping from 87 N and S to the poles. Data are adjusted using a first-order crossover solution for radial, along-track, and across-track position. Parts of orbits are excluded where solutions for these orbits are deemed to be poor. (Note: subtract 10000 from a MOLA mapping phase orbit number to determine the equivalent MGS Project orbit number.) Also excluded are shots more than 1.2 degree off-nadir (except as noted above), channel 4 returns, and any returns not classified as ground returns, e.g. clouds or noise, according to the SHOT_CLASSIFICATION_CODE. A total of nearly 600,000,000 observations are represented. The minimum and maximum topography observations for the entire data set are -8208 and 21249 meters. Topography is the planetary radius minus the areoid radius at a given longitude and latitude.</abstractText>
+          <units>m</units>
+          <categories>
+            <string-array>
+              <string>By Instrument</string>
+              <string>MOLA</string>
+            </string-array>
+            <string-array>
+              <string>By Type</string>
+              <string>Topography</string>
+              <string>MOLA</string>
+            </string-array>
+          </categories>
+          <latLonBBox serialization="custom">
+            <unserializable-parents/>
+            <edu.asu.jmars.swing.SerializableRectangle2D>
+              <double>-180.0</double>
+              <double>-90.0</double>
+              <double>360.0</double>
+              <double>180.0</double>
+            </edu.asu.jmars.swing.SerializableRectangle2D>
+          </latLonBBox>
+          <hasNumericKeyword>true</hasNumericKeyword>
+          <hasElevationKeyword>true</hasElevationKeyword>
+          <hasGeologicKeyword>false</hasGeologicKeyword>
+          <maxPPD>128.0</maxPPD>
+          <xOffset>0.0</xOffset>
+          <yOffset>0.0</yOffset>
+        </edu.asu.jmars.layer.map2.WMSMapSource>
+      </mapsources>
+      <configProfileObjectsONESOURCE/>
+      <configProfileObjectsMANYSOURCES/>
+      <configMapsourcesONESOURCE>
+        <edu.asu.jmars.layer.map2.WMSMapSource reference="../../mapsources/edu.asu.jmars.layer.map2.WMSMapSource"/>
+      </configMapsourcesONESOURCE>
+      <configMapsourcesMANYSOURCES>
+        <edu.asu.jmars.layer.map2.WMSMapSource reference="../../mapsources/edu.asu.jmars.layer.map2.WMSMapSource"/>
+      </configMapsourcesMANYSOURCES>
+      <currentConfigType>ONENUMSOURCE</currentConfigType>
+    </createParms>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>true</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.scale.ScaleFactory</factoryName>
+    <layerName>Map Scalebar</layerName>
+    <createParms class="edu.asu.jmars.layer.scale.ScaleParameters">
+      <offsetX>10</offsetX>
+      <offsetY>-15</offsetY>
+      <isMetric>true</isMetric>
+      <fontOutlineColorint>0</fontOutlineColorint>
+      <fontFillColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </fontFillColor>
+      <barColor reference="../fontFillColor"/>
+      <tickColor reference="../fontFillColor"/>
+      <numberOfTicks>0</numberOfTicks>
+      <width>20</width>
+      <labelFont>
+        <attributes>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>16.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Roboto Bold JMARS</string>
+          </entry>
+        </attributes>
+      </labelFont>
+      <h__alignment>Center</h__alignment>
+      <v__alignment>Above</v__alignment>
+    </createParms>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>true</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.north.NorthFactory</factoryName>
+    <layerName>North Arrow</layerName>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>true</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.grid.GridFactory</factoryName>
+    <layerName>Lat/Lon Grid</layerName>
+    <createParms class="edu.asu.jmars.layer.grid.GridParameters">
+      <majorColor>-16777216</majorColor>
+      <majorSpacing>10.0</majorSpacing>
+      <majorMainVisible>true</majorMainVisible>
+      <majorPannerVisible>true</majorPannerVisible>
+      <major3DVisible>true</major3DVisible>
+      <majorWidth>1</majorWidth>
+      <majorLabelColor>-16777216</majorLabelColor>
+      <majorLabelFont>
+        <fontFillColor class="javax.swing.plaf.ColorUIResource">
+          <value>-1</value>
+          <falpha>0.0</falpha>
+        </fontFillColor>
+        <labelFont class="javax.swing.plaf.FontUIResource">
+          <attributes>
+            <entry>
+              <awt-text-attribute>superscript</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>width</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>size</awt-text-attribute>
+              <float>14.0</float>
+            </entry>
+            <entry>
+              <awt-text-attribute>transform</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>posture</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>tracking</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>weight</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>family</awt-text-attribute>
+              <string>Roboto JMARS</string>
+            </entry>
+          </attributes>
+        </labelFont>
+      </majorLabelFont>
+      <majorMainLabelVisible>true</majorMainLabelVisible>
+      <majorPannerLabelVisible>false</majorPannerLabelVisible>
+      <minorColor>-8355712</minorColor>
+      <minorSpacing>2.0</minorSpacing>
+      <minorMainVisible>false</minorMainVisible>
+      <minorPannerVisible>false</minorPannerVisible>
+      <minor3DVisible>false</minor3DVisible>
+      <minorWidth>1</minorWidth>
+      <minorLabelColor>-8355712</minorLabelColor>
+      <minorLabelFont>
+        <fontFillColor class="javax.swing.plaf.ColorUIResource">
+          <value>-2434342</value>
+          <falpha>0.0</falpha>
+        </fontFillColor>
+        <labelFont>
+          <attributes>
+            <entry>
+              <awt-text-attribute>superscript</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>width</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>size</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>transform</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>posture</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>tracking</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>weight</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>family</awt-text-attribute>
+              <string>Roboto JMARS</string>
+            </entry>
+          </attributes>
+        </labelFont>
+      </minorLabelFont>
+      <minorMainLabelVisible>false</minorMainLabelVisible>
+      <minorPannerLabelVisible>false</minorPannerLabelVisible>
+      <defaultFontMinor reference="../minorLabelFont/labelFont"/>
+    </createParms>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>true</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.nomenclature.NomenclatureFactory</factoryName>
+    <layerName>Nomenclature</layerName>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>nomenclature</string>
+        <edu.asu.jmars.layer.nomenclature.NomenclatureLView_-NomenclatureSettings>
+          <showMainPoints>true</showMainPoints>
+          <showPannerPoints>true</showPannerPoints>
+          <show3DPoints>true</show3DPoints>
+          <pointColor>
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </pointColor>
+          <showMainLabels>true</showMainLabels>
+          <showPannerLabels>true</showPannerLabels>
+          <show3DLabels>true</show3DLabels>
+          <labelColor>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </labelColor>
+          <enableLabelTips>true</enableLabelTips>
+          <showLandmarkTypes>
+            <string>Crater</string>
+          </showLandmarkTypes>
+          <showLandmarks/>
+          <outlineColor class="javax.swing.plaf.ColorUIResource">
+            <value>-16777216</value>
+            <falpha>0.0</falpha>
+          </outlineColor>
+        </edu.asu.jmars.layer.nomenclature.NomenclatureLView_-NomenclatureSettings>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>true</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.map2.MapLViewFactory</factoryName>
+    <layerName>Explore Mars</layerName>
+    <createParms class="edu.asu.jmars.layer.map2.MapLView$InitialParams">
+      <lviewPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.SingleComposite" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+            </comp>
+            <mapSources>
+              <edu.asu.jmars.layer.map2.WMSMapSource>
+                <name>mars_auto_zoom</name>
+                <server class="edu.asu.jmars.layer.map2.WMSMapServer" serialization="custom">
+                  <unserializable-parents/>
+                  <edu.asu.jmars.layer.map2.WMSMapServer>
+                    <default>
+                      <maxRequests>5</maxRequests>
+                      <timeout>10000</timeout>
+                      <userDefined>false</userDefined>
+                      <name>large_maps</name>
+                      <title>MSFF - High Resolution Map Server (Lunaserv)</title>
+                      <uri serialization="custom">
+                        <java.net.URI>
+                          <default>
+                            <string>http://jmars.mars.asu.edu/maps/getLunaservCapabilities.php?body=mars&amp;large_map=1</string>
+                          </default>
+                        </java.net.URI>
+                      </uri>
+                    </default>
+                  </edu.asu.jmars.layer.map2.WMSMapServer>
+                </server>
+                <title>Explore Mars</title>
+                <abstractText>Dynamic Mix of MOLA, THEMIS, and CTX Global mosaics</abstractText>
+                <categories>
+                  <string-array>
+                    <string>Auto Zoom</string>
+                  </string-array>
+                </categories>
+                <latLonBBox serialization="custom">
+                  <unserializable-parents/>
+                  <edu.asu.jmars.swing.SerializableRectangle2D>
+                    <double>-180.0</double>
+                    <double>-90.0</double>
+                    <double>360.0</double>
+                    <double>180.0</double>
+                  </edu.asu.jmars.swing.SerializableRectangle2D>
+                </latLonBBox>
+                <hasNumericKeyword>false</hasNumericKeyword>
+                <hasElevationKeyword>false</hasElevationKeyword>
+                <hasGeologicKeyword>false</hasGeologicKeyword>
+                <maxPPD>1048576.0</maxPPD>
+                <xOffset>0.0</xOffset>
+                <yOffset>0.0</yOffset>
+              </edu.asu.jmars.layer.map2.WMSMapSource>
+            </mapSources>
+            <innerStages>
+              <edu.asu.jmars.layer.map2.Stage-array>
+                <edu.asu.jmars.layer.map2.stages.SigmaStretchStage serialization="custom">
+                  <edu.asu.jmars.layer.map2.AbstractStage>
+                    <default>
+                      <stageSettings class="edu.asu.jmars.layer.map2.stages.SigmaStretchStageSettings" serialization="custom">
+                        <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                          <default/>
+                        </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                        <edu.asu.jmars.layer.map2.stages.SigmaStretchStageSettings>
+                          <default>
+                            <minPPD>1024.0</minPPD>
+                            <variance>40.0</variance>
+                          </default>
+                        </edu.asu.jmars.layer.map2.stages.SigmaStretchStageSettings>
+                      </stageSettings>
+                    </default>
+                  </edu.asu.jmars.layer.map2.AbstractStage>
+                  <edu.asu.jmars.layer.map2.stages.SigmaStretchStage>
+                    <default/>
+                  </edu.asu.jmars.layer.map2.stages.SigmaStretchStage>
+                </edu.asu.jmars.layer.map2.stages.SigmaStretchStage>
+              </edu.asu.jmars.layer.map2.Stage-array>
+            </innerStages>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </lviewPPM>
+      <chartPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.BandAggregator" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                      <default>
+                        <numInputs>0</numInputs>
+                        <inputNames/>
+                      </default>
+                    </edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+            </comp>
+            <mapSources/>
+            <innerStages/>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </chartPPM>
+      <layerParams>
+        <name>Explore Mars</name>
+        <category>Imagery</category>
+        <subcategory></subcategory>
+        <topic>Global Mosaics</topic>
+        <advancedOnly>false</advancedOnly>
+        <type>map</type>
+        <options>
+          <string>mars_auto_zoom</string>
+          <string>sigma:1024</string>
+        </options>
+        <citation>Zoom: 1-32
+Hill, J. R., and P. R. Christensen (2017),Well-preserved low thermal inertia ejecta deposits surrounding young secondary impact craters on Mars,J. Geophys. Res. Planets, 122, 1276&#x96;1299,doi:10.1002/2016JE005210.
+Edwards, C. S., K. J. Nowicki, P. R. Christensen, J. Hill, N. Gorelick, and K. Murray (2011), Mosaicking of global planetary image datasets: 1. Techniques and data processing for Thermal Emission Imaging System (THEMIS) multi-spectral data, J. Geophys. Res., 116, E10008, doi:10.1029/2010JE003755.
+Smith, D. E., et al. (2001), Mars Orbiter Laser Altimeter: Experiment summary after the first year of global mapping of Mars, J. Geophys. Res., 106, 23,689&#x96;23,722, doi:10.1029/2000JE001364.
+
+Zoom: 64-512
+Hill, J. R., and P. R. Christensen (2017),Well-preserved low thermal inertia ejecta deposits surrounding young secondary impact craters on Mars,J. Geophys. Res. Planets, 122, 1276&#x96;1299,doi:10.1002/2016JE005210.
+Edwards, C. S., K. J. Nowicki, P. R. Christensen, J. Hill, N. Gorelick, and K. Murray (2011), Mosaicking of global planetary image datasets: 1. Techniques and data processing for Thermal Emission Imaging System (THEMIS) multi-spectral data, J. Geophys. Res., 116, E10008, doi:10.1029/2010JE003755.
+
+Zoom: 1024-16384
+A Global, Blended CTX Mosaic of Mars with Vectorized Seam Mapping: A New Mosaicking Pipeline Using Principles of Non-Destructive Image Editing. J. L. Dickson, L. A. Kerber, C. I. Fassett and B. L. Ehlmann, 49th Lunar and Planetary Science Conference 2018 (LPI Contrib. No. 2083).</citation>
+        <description>Zoom: 1-32
+THEMIS Day IR with Colorized MOLA Elevation 100 meter/pixel Global Mosaic version 13.4.
+This product was created by the staff of the Mars Space Flight Facility at Arizona State University, Tempe, Arizona, USA. The daytime infrared relative temperature mosaic basemap is composed of 26,204 images acquired during the first ~15 years of the Mars Odyssey mission. The MOLA global elevation map was acquired during the first ~4 years of the Mars Global Surveyor mission. The MOLA elevation data was colorized using the standard MOLA color scheme and linear binning between -8,000m and +14,000m. Each of the resulting RGB bands was then multiplied by a shaded relief map generated from the MOLA elevation data and illuminated from the west, roughly replicating the illumination conditions at the local time observed by THEMIS. The resulting colorized shaded relief map was then converted into HSV space, the value was increased by 50% and then converted back to RGB space, in order to make the colorization more visibly appealing. The RGB bands of the colorized shaded relief map were then multiplied by the THEMIS Day IR global mosaic. The resulting map was then converted into HSV space, the saturation was decreased by 20%, the value was increased by 75%, and then converted back into RGB space. These color adjustments were performed to make the final product more visually appealing. This product uses the THEMIS Day IR 100m Global Mosaic (v13.4) as the basemap. This product was produced by J.R. Hill and finalized on May 18, 2020.
+
+Zoom: 64-512
+THEMIS Day IR 100 meter/pixel Global Mosaic version 13.4. This product was created by the staff of the Mars Space Flight Facility at Arizona State University, Tempe, Arizona, USA. This daytime infrared relative temperature mosaic is composed of 26,204 images acquired during the first ~15 years of the Mars Odyssey mission. This product was produced by J.R. Hill and finalized on May 8, 2020.
+
+Zoom: 1024-16384
+The Bruce Murray Laboratory for Planetary Visualization at the California Institute of Technology has generated a seam-corrected and seam-mapped mosaic of Mars rendered at 5.0 m/px using Context Camera (CTX) data from the Mars Reconnaissance Orbiter (MRO). The MRO/CTX instrument was built and operated by Malin Space Science Systems and the Jet Propulsion Laboratory. The CTX Mosaic project has been lead by Jay Dickson (Caltech).
+
+Significant help has been provided by Bethany Ehlmann (Caltech/JPL), Laura Kerber (JPL), Caleb Fassett (MSFC), Daven Quinn (U. Wisconsin), and Trent Hare (USGS). We are thankful for the effort of Lucian Plesea of ESRI to make the beta01 release streamable. This project has benefited from feedback we have received from the scientists listed below who have scrutinized regional samples for us that helped produce this beta release.
+
+Jenny Whitten (Tulane), Colin Dundas (USGS), Christopher Edwards (NAU), Marisa Palucis (Dartmouth), Lulu Pan (Univ. Lyon), Debra Needham (MSFC), Ellen Leask (Caltech), Erica Jawin (Smithsonian), Mark Salvatore (NAU), Jim Head (Brown), Vivian Sun (JPL), Mike
+Bramble (Brown), Brad Thomson (UTK), Nathan Williams (JPL), Keenan Golder (UTK), Jack Mustard (Brown), Adeene Denton (Brown), Abby Fraeman (JPL), Ingrid Daubar (JPL), Chris Kremer (Brown), Serina Diniega (JPL), Becky Williams (PSI), Ashley Palumbo (Brown),
+Kaitlyn Stacey (UT Dallas), Tim Goudge (UT Austin), Edwin Kite (U. Chicago), Jacob Widmer (UMD), Devon Burr (UTK), Claire Mondro (UTK), Chris Yen (Brown), Jim Skinner (USGS), Susan Conway (U. Nantes), and the JMARS Team (ASU).
+ASU ingest date: 5/8/19</description>
+        <id>4237</id>
+        <layergroup>all</layergroup>
+        <units></units>
+        <links>,https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JE005210,https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2000JE001364,https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JE005210,http://murray-lab.caltech.edu/CTX/,https://www.hou.usra.edu/meetings/lpsc2018/pdf/2480.pdf,</links>
+        <servers>
+          <string>ms-ctx.mars.asu.edu</string>
+        </servers>
+        <customMapOwnerFlag>false</customMapOwnerFlag>
+        <tempManualId>10000</tempManualId>
+        <lp__version>1.0</lp__version>
+      </layerParams>
+    </createParms>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>false</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.map2.MapLViewFactory</factoryName>
+    <layerName>Color Map</layerName>
+    <createParms class="edu.asu.jmars.layer.map2.MapLView$InitialParams">
+      <lviewPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.SingleComposite" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+            </comp>
+            <mapSources>
+              <edu.asu.jmars.layer.map2.WMSMapSource>
+                <name>viking_color_mdim_v2</name>
+                <server class="edu.asu.jmars.layer.map2.WMSMapServer" reference="../../../../../../../../edu.asu.jmars.layer.SavedLayer/createParms/mapsources/edu.asu.jmars.layer.map2.WMSMapSource/server"/>
+                <title>Viking Colorized Global Mosaic 232m v2</title>
+                <abstractText>This global image map of Mars has a resolution of 256 pixels/degree. The colorized mosaic was completed by NASA AMES which warped the original Viking colorized mosaic and blended over the latest black/white Mars Digital Image Model (MDIM 2.1). The positional accuracy of features in MDIM 2.1 is estimated to be roughly one pixel (200 m), compared to 3 km for MDIM 2.0 released in 2001 and &gt;6 km for MDIM 1.0 released in 1991. In addition to relatively imprecise geodetic control, the previous mosaics were affected by changing definitions of cartographic parameters (such as the definition of zero longitude), resulting in an overall longitude shift of as much as 0.2 degrees between the early MDIMs and other datasets. The new mosaic uses the most recent coordinate system definitions for Mars. These definitions have been widely adopted by NASA missions and other users of planetary data and are likely to remain in use for a decade or more. As a result, MDIM 2.1 not only registers precisely with data from current missions such as Mars Global Surveyor (MGS) and 2001 Mars Odyssey but will serve as an accurate basemap on which data from future missions can be plotted. Source: https://planetarymaps.usgs.gov/mosaic/Mars_Viking_MDIM21_ClrMosaic_global_232m.tif, Data ingest 6/20/19</abstractText>
+                <categories>
+                  <string-array>
+                    <string>By Instrument</string>
+                    <string>Viking</string>
+                  </string-array>
+                  <string-array>
+                    <string>By Type</string>
+                    <string>Mosaics</string>
+                  </string-array>
+                </categories>
+                <latLonBBox serialization="custom">
+                  <unserializable-parents/>
+                  <edu.asu.jmars.swing.SerializableRectangle2D>
+                    <double>-180.0</double>
+                    <double>-90.0</double>
+                    <double>360.0</double>
+                    <double>180.0</double>
+                  </edu.asu.jmars.swing.SerializableRectangle2D>
+                </latLonBBox>
+                <hasNumericKeyword>false</hasNumericKeyword>
+                <hasElevationKeyword>false</hasElevationKeyword>
+                <hasGeologicKeyword>false</hasGeologicKeyword>
+                <maxPPD>256.0</maxPPD>
+                <xOffset>0.0</xOffset>
+                <yOffset>0.0</yOffset>
+              </edu.asu.jmars.layer.map2.WMSMapSource>
+            </mapSources>
+            <innerStages>
+              <edu.asu.jmars.layer.map2.Stage-array/>
+            </innerStages>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </lviewPPM>
+      <chartPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.BandAggregator" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                      <default>
+                        <numInputs>0</numInputs>
+                        <inputNames/>
+                      </default>
+                    </edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+            </comp>
+            <mapSources/>
+            <innerStages/>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </chartPPM>
+      <layerParams>
+        <name>Color Map</name>
+        <category>Home</category>
+        <subcategory></subcategory>
+        <topic>Common Global Maps</topic>
+        <advancedOnly>false</advancedOnly>
+        <type>map</type>
+        <options>
+          <string>viking_color_mdim_v2</string>
+        </options>
+        <citation>References available from: http://astrogeology.usgs.gov/maps/mdim-2-1
+PublisherUSGS Astrogeology Science CenterPublication Date2 February 2009AuthorUSGS Astrogeology Science CenterOriginatorNASA AME</citation>
+        <description>This global image map of Mars has a resolution of 256 pixels/degree. The colorized mosaic was completed by NASA AMES which warped the original Viking colorized mosaic and blended over the latest black/white Mars Digital Image Model (MDIM 2.1). The positional accuracy of features in MDIM 2.1 is estimated to be roughly one pixel (200 m), compared to 3 km for MDIM 2.0 released in 2001 and &gt;6 km for MDIM 1.0 released in 1991. In addition to relatively imprecise geodetic control, the previous mosaics were affected by changing definitions of cartographic parameters (such as the definition of zero longitude), resulting in an overall longitude shift of as much as 0.2 degrees between the early MDIMs and other datasets. The new mosaic uses the most recent coordinate system definitions for Mars. These definitions have been widely adopted by NASA missions and other users of planetary data and are likely to remain in use for a decade or more. As a result, MDIM 2.1 not only registers precisely with data from current missions such as Mars Global Surveyor (MGS) and 2001 Mars Odyssey but will serve as an accurate basemap on which data from future missions can be plotted.
+
+Source Image: https://planetarymaps.usgs.gov/mosaic/Mars_Viking_MDIM21_ClrMosaic_global_232m.tif
+Date of Ingest: 6/21/19</description>
+        <id>4241</id>
+        <layergroup>basic</layergroup>
+        <units></units>
+        <links>,https://astrogeology.usgs.gov/search/map/Mars/Viking/MDIM21/Mars_Viking_MDIM21_ClrMosaic_global_232m,https://planetarymaps.usgs.gov/mosaic/Mars_Viking_MDIM21_ClrMosaic_global_232m.tif,</links>
+        <servers/>
+        <customMapOwnerFlag>false</customMapOwnerFlag>
+        <tempManualId>10000</tempManualId>
+        <lp__version>1.0</lp__version>
+      </layerParams>
+    </createParms>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>false</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.map2.MapLViewFactory</factoryName>
+    <layerName>Colorized Elevation</layerName>
+    <createParms class="edu.asu.jmars.layer.map2.MapLView$InitialParams">
+      <lviewPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.SingleComposite" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+            </comp>
+            <mapSources>
+              <edu.asu.jmars.layer.map2.WMSMapSource>
+                <name>MOLA_Color</name>
+                <server class="edu.asu.jmars.layer.map2.WMSMapServer" reference="../../../../../../../../edu.asu.jmars.layer.SavedLayer/createParms/mapsources/edu.asu.jmars.layer.map2.WMSMapSource/server"/>
+                <title>MOLA Shaded Relief / Colorized Elevation</title>
+                <abstractText>MOLA Shaded Relief / Colorized Elevation</abstractText>
+                <categories>
+                  <string-array>
+                    <string>By Instrument</string>
+                    <string>MOLA</string>
+                  </string-array>
+                  <string-array>
+                    <string>By Type</string>
+                    <string>Topography</string>
+                  </string-array>
+                </categories>
+                <latLonBBox serialization="custom">
+                  <unserializable-parents/>
+                  <edu.asu.jmars.swing.SerializableRectangle2D>
+                    <double>-180.0</double>
+                    <double>-90.0</double>
+                    <double>360.0</double>
+                    <double>180.0</double>
+                  </edu.asu.jmars.swing.SerializableRectangle2D>
+                </latLonBBox>
+                <hasNumericKeyword>false</hasNumericKeyword>
+                <hasElevationKeyword>false</hasElevationKeyword>
+                <hasGeologicKeyword>false</hasGeologicKeyword>
+                <maxPPD>256.0</maxPPD>
+                <xOffset>0.0</xOffset>
+                <yOffset>0.0</yOffset>
+              </edu.asu.jmars.layer.map2.WMSMapSource>
+            </mapSources>
+            <innerStages>
+              <edu.asu.jmars.layer.map2.Stage-array/>
+            </innerStages>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </lviewPPM>
+      <chartPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.BandAggregator" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                      <default>
+                        <numInputs>1</numInputs>
+                        <inputNames>
+                          <string>input_0</string>
+                        </inputNames>
+                      </default>
+                    </edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+            </comp>
+            <mapSources>
+              <edu.asu.jmars.layer.map2.WMSMapSource reference="../../../../../../../edu.asu.jmars.layer.SavedLayer/createParms/mapsources/edu.asu.jmars.layer.map2.WMSMapSource"/>
+            </mapSources>
+            <innerStages>
+              <edu.asu.jmars.layer.map2.Stage-array/>
+            </innerStages>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </chartPPM>
+      <layerParams>
+        <name>Colorized Elevation</name>
+        <category>Home</category>
+        <subcategory></subcategory>
+        <topic>Common Global Maps</topic>
+        <advancedOnly>false</advancedOnly>
+        <type>map</type>
+        <options>
+          <string>MOLA_Color</string>
+          <string>MOLA_128ppd_topo</string>
+        </options>
+        <citation></citation>
+        <description>This Mars Orbiter Laser Altimeter (MOLA) instrument colorized shaded relief data layer is derived from Planetary Data System source images at http://pds-geosciences.wustl.edu/missions/mgs/mola.html. This data product is a shape map of Mars at a resolution of 0.00781 (1/128) by 0.00781 degrees, based on altimetry data acquired by the Mars Global Surveyor MOLA instrument and accumulated over the course of the primary and extended mission. The MOLA Precision Experiment Data Records (PEDRs) are the source for this data set. The map is in the form of a binary table with one row for each 0.00781-degree latitude. Map coordinates use the IAU2000 reference system. The binned data include all MOLA nadir observations from the Mapping Phase through the Primary and Extended missions, from the end of aerobraking in February 1999 through June 2001. Additionally, off-nadir observations of the north pole are included from 87 N latitude and northward, taken during the spring of 1998, and of both poles taken during Mapping from 87 N and S to the poles. Data are adjusted using a first-order crossover solution for radial, along-track, and across-track position. Parts of orbits are excluded where solutions for these orbits are deemed to be poor. (Note: subtract 10000 from a MOLA mapping phase orbit number to determine the equivalent MGS Project orbit number.) Also excluded are shots more than 1.2 degree off-nadir (except as noted above), channel 4 returns, and any returns not classified as ground returns, e.g. clouds or noise, according to the SHOT_CLASSIFICATION_CODE. A total of nearly 600,000,000 observations are represented.</description>
+        <id>4243</id>
+        <layergroup>basic</layergroup>
+        <units></units>
+        <links>,http://pds-geosciences.wustl.edu/missions/mgs/mola.html,</links>
+        <servers/>
+        <customMapOwnerFlag>false</customMapOwnerFlag>
+        <tempManualId>10000</tempManualId>
+        <lp__version>1.0</lp__version>
+      </layerParams>
+    </createParms>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>false</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.map2.MapLViewFactory</factoryName>
+    <layerName>Daytime Temperature</layerName>
+    <createParms class="edu.asu.jmars.layer.map2.MapLView$InitialParams">
+      <lviewPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.SingleComposite" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+            </comp>
+            <mapSources>
+              <edu.asu.jmars.layer.map2.WMSMapSource>
+                <name>thm_dir_100m_v13_4</name>
+                <server class="edu.asu.jmars.layer.map2.WMSMapServer" reference="../../../../../../../../edu.asu.jmars.layer.SavedLayer/createParms/mapsources/edu.asu.jmars.layer.map2.WMSMapSource/server"/>
+                <title>THEMIS Day IR 100m Global Mosaic v13.4</title>
+                <abstractText>THEMIS Day IR 100 meter/pixel Global Mosaic version 13.4. This product was created by the staff of the Mars Space Flight Facility at Arizona State University, Tempe, Arizona, USA. This daytime infrared relative temperature mosaic is composed of 26,204 images acquired during the first ~15 years of the Mars Odyssey mission. For details regarding the creation of this global mosaic, reference: Hill, J. R., and P. R. Christensen (2017),Well-preserved low thermal inertia ejecta deposits surrounding young secondary impact craters on Mars,J. Geophys. Res. Planets, 122, 1276–1299,doi:10.1002/2016JE005210 and the references cited within. This product was produced by J.R. Hill and finalized on May 8, 2020.</abstractText>
+                <categories>
+                  <string-array>
+                    <string>By Type</string>
+                    <string>Mosaics</string>
+                  </string-array>
+                  <string-array>
+                    <string>By Instrument</string>
+                    <string>THEMIS</string>
+                  </string-array>
+                </categories>
+                <latLonBBox serialization="custom">
+                  <unserializable-parents/>
+                  <edu.asu.jmars.swing.SerializableRectangle2D>
+                    <double>-180.0</double>
+                    <double>-90.0</double>
+                    <double>360.0</double>
+                    <double>180.0</double>
+                  </edu.asu.jmars.swing.SerializableRectangle2D>
+                </latLonBBox>
+                <hasNumericKeyword>false</hasNumericKeyword>
+                <hasElevationKeyword>false</hasElevationKeyword>
+                <hasGeologicKeyword>false</hasGeologicKeyword>
+                <maxPPD>593.0</maxPPD>
+                <xOffset>0.0</xOffset>
+                <yOffset>0.0</yOffset>
+              </edu.asu.jmars.layer.map2.WMSMapSource>
+            </mapSources>
+            <innerStages>
+              <edu.asu.jmars.layer.map2.Stage-array/>
+            </innerStages>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </lviewPPM>
+      <chartPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.BandAggregator" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                      <default>
+                        <numInputs>0</numInputs>
+                        <inputNames/>
+                      </default>
+                    </edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+            </comp>
+            <mapSources/>
+            <innerStages/>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </chartPPM>
+      <layerParams>
+        <name>Daytime Temperature</name>
+        <category>Home</category>
+        <subcategory></subcategory>
+        <topic>Common Global Maps</topic>
+        <advancedOnly>false</advancedOnly>
+        <type>map</type>
+        <options>
+          <string>thm_dir_100m_v13_4</string>
+        </options>
+        <citation>Hill, J. R., and P. R. Christensen (2017),Well-preserved low thermal inertia ejecta deposits surrounding young secondary impact craters on Mars,J. Geophys. Res. Planets, 122, 1276�1299,doi:10.1002/2016JE005210 and the references cited within. This product was produced by J.R. Hill and finalized on May 8, 2020.</citation>
+        <description>THEMIS Day IR 100 meter/pixel Global Mosaic version 13.4. This product was created by the staff of the Mars Space Flight Facility at Arizona State University, Tempe, Arizona, USA. This daytime infrared relative temperature mosaic is composed of 26,204 images acquired during the first ~15 years of the Mars Odyssey mission.</description>
+        <id>4244</id>
+        <layergroup>basic</layergroup>
+        <units></units>
+        <links></links>
+        <servers/>
+        <customMapOwnerFlag>false</customMapOwnerFlag>
+        <tempManualId>10000</tempManualId>
+        <lp__version>1.0</lp__version>
+      </layerParams>
+    </createParms>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>false</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.map2.MapLViewFactory</factoryName>
+    <layerName>Nighttime Temperature</layerName>
+    <createParms class="edu.asu.jmars.layer.map2.MapLView$InitialParams">
+      <lviewPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.SingleComposite" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+            </comp>
+            <mapSources>
+              <edu.asu.jmars.layer.map2.WMSMapSource>
+                <name>thm_nir_100m_v13_3</name>
+                <server class="edu.asu.jmars.layer.map2.WMSMapServer" reference="../../../../../../../../edu.asu.jmars.layer.SavedLayer/createParms/mapsources/edu.asu.jmars.layer.map2.WMSMapSource/server"/>
+                <title>THEMIS Night IR 100m Global Mosaic (v14.0)</title>
+                <abstractText>This product is a global mosaic of Thermal Emission Imaging System (THEMIS) nighttime infrared Band 9 (12.57um) images of Mars acquired at 100m/pixel resolution. The individual images have been stretched using a running stretch algorithm and were then blended together to reduce the appearance of seams between images. The global mosaic is composed of 18,931 THEMIS nighttime infrared images.</abstractText>
+                <categories>
+                  <string-array>
+                    <string>By Type</string>
+                    <string>Mosaics</string>
+                  </string-array>
+                  <string-array>
+                    <string>By Instrument</string>
+                    <string>THEMIS</string>
+                  </string-array>
+                </categories>
+                <latLonBBox serialization="custom">
+                  <unserializable-parents/>
+                  <edu.asu.jmars.swing.SerializableRectangle2D>
+                    <double>-180.0</double>
+                    <double>-90.0</double>
+                    <double>360.0</double>
+                    <double>180.0</double>
+                  </edu.asu.jmars.swing.SerializableRectangle2D>
+                </latLonBBox>
+                <hasNumericKeyword>false</hasNumericKeyword>
+                <hasElevationKeyword>false</hasElevationKeyword>
+                <hasGeologicKeyword>false</hasGeologicKeyword>
+                <maxPPD>593.0</maxPPD>
+                <xOffset>0.0</xOffset>
+                <yOffset>0.0</yOffset>
+              </edu.asu.jmars.layer.map2.WMSMapSource>
+            </mapSources>
+            <innerStages>
+              <edu.asu.jmars.layer.map2.Stage-array/>
+            </innerStages>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </lviewPPM>
+      <chartPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.BandAggregator" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                      <default>
+                        <numInputs>1</numInputs>
+                        <inputNames>
+                          <string>input_0</string>
+                        </inputNames>
+                      </default>
+                    </edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+            </comp>
+            <mapSources>
+              <edu.asu.jmars.layer.map2.WMSMapSource reference="../../../../../lviewPPM/edu.asu.jmars.layer.map2.msd.PipelineModel/edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState/mapSources/edu.asu.jmars.layer.map2.WMSMapSource"/>
+            </mapSources>
+            <innerStages>
+              <edu.asu.jmars.layer.map2.Stage-array/>
+            </innerStages>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </chartPPM>
+      <layerParams>
+        <name>Nighttime Temperature</name>
+        <category>Home</category>
+        <subcategory></subcategory>
+        <topic>Common Global Maps</topic>
+        <advancedOnly>false</advancedOnly>
+        <type>map</type>
+        <options>
+          <string>thm_nir_100m_v13_3</string>
+          <string>thm_nir_100m_v13_3</string>
+        </options>
+        <citation>Hill, J., C. S. Edwards and P. R. Christensen (2014), Mapping the Martian Surface with THEMIS Infrared Global Mosaics, 8th International Conference on Mars, Pasadena, CA, Abs. 1141.
+
+Edwards, C. S., K. J. Nowicki, P. R. Christensen, J. Hill, N. Gorelick, and K. Murray (2011), Mosaicking of global planetary image datasets: 1. Techniques and data processing for Thermal Emission Imaging System (THEMIS) multi-spectral data, J. Geophys. Res., 116, E10008, doi:10.1029/2010JE003755.</citation>
+        <description>This product is a global mosaic of Thermal Emission Imaging System (THEMIS) nighttime infrared Band 9 (12.57um) images of Mars acquired at 100m/pixel resolution. The individual images have been stretched using a running stretch algorithm and were then blended together to reduce the appearance of seams between images. The global mosaic is composed of 18,931 THEMIS nighttime infrared images.</description>
+        <id>4245</id>
+        <layergroup>basic</layergroup>
+        <units></units>
+        <links></links>
+        <servers/>
+        <customMapOwnerFlag>false</customMapOwnerFlag>
+        <tempManualId>10000</tempManualId>
+        <lp__version>1.0</lp__version>
+      </layerParams>
+    </createParms>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>false</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+  <edu.asu.jmars.layer.SavedLayer>
+    <factoryName>edu.asu.jmars.layer.map2.MapLViewFactory</factoryName>
+    <layerName>Thermal Inertia</layerName>
+    <createParms class="edu.asu.jmars.layer.map2.MapLView$InitialParams">
+      <lviewPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.SingleComposite" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.stages.composite.SingleCompositeSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.SingleComposite>
+            </comp>
+            <mapSources>
+              <edu.asu.jmars.layer.map2.WMSMapSource>
+                <name>TES_Thermal_Inertia</name>
+                <server class="edu.asu.jmars.layer.map2.WMSMapServer" reference="../../../../../../../../edu.asu.jmars.layer.SavedLayer/createParms/mapsources/edu.asu.jmars.layer.map2.WMSMapSource/server"/>
+                <title>TES Thermal Inertia (Christensen)</title>
+                <abstractText>Citation: Christensen, P. R., and H. J. Moore (1992), The martian surface layer, in Mars, edited by H. H. Kieffer, et al., pp. 686-729, University of Arizona Press, Tucson, AZ.</abstractText>
+                <categories>
+                  <string-array>
+                    <string>By Instrument</string>
+                    <string>TES</string>
+                  </string-array>
+                  <string-array>
+                    <string>By Type</string>
+                    <string>Surface Properties</string>
+                  </string-array>
+                </categories>
+                <latLonBBox serialization="custom">
+                  <unserializable-parents/>
+                  <edu.asu.jmars.swing.SerializableRectangle2D>
+                    <double>-180.0</double>
+                    <double>-90.0</double>
+                    <double>360.0</double>
+                    <double>180.0</double>
+                  </edu.asu.jmars.swing.SerializableRectangle2D>
+                </latLonBBox>
+                <hasNumericKeyword>false</hasNumericKeyword>
+                <hasElevationKeyword>false</hasElevationKeyword>
+                <hasGeologicKeyword>false</hasGeologicKeyword>
+                <maxPPD>8.0</maxPPD>
+                <xOffset>0.0</xOffset>
+                <yOffset>0.0</yOffset>
+              </edu.asu.jmars.layer.map2.WMSMapSource>
+            </mapSources>
+            <innerStages>
+              <edu.asu.jmars.layer.map2.Stage-array/>
+            </innerStages>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </lviewPPM>
+      <chartPPM serialization="custom">
+        <edu.asu.jmars.layer.map2.msd.PipelineModel>
+          <default/>
+          <edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+            <comp class="edu.asu.jmars.layer.map2.stages.composite.BandAggregator" serialization="custom">
+              <edu.asu.jmars.layer.map2.AbstractStage>
+                <default>
+                  <stageSettings class="edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings" serialization="custom">
+                    <edu.asu.jmars.layer.map2.AbstractStageSettings>
+                      <default/>
+                    </edu.asu.jmars.layer.map2.AbstractStageSettings>
+                    <edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                      <default>
+                        <numInputs>1</numInputs>
+                        <inputNames>
+                          <string>input_0</string>
+                        </inputNames>
+                      </default>
+                    </edu.asu.jmars.layer.map2.stages.composite.BandAggregatorSettings>
+                  </stageSettings>
+                </default>
+              </edu.asu.jmars.layer.map2.AbstractStage>
+              <edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.CompositeStage>
+              <edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+                <default/>
+              </edu.asu.jmars.layer.map2.stages.composite.BandAggregator>
+            </comp>
+            <mapSources>
+              <edu.asu.jmars.layer.map2.WMSMapSource>
+                <name>TES_Thermal_Inertia_numeric</name>
+                <server class="edu.asu.jmars.layer.map2.WMSMapServer" reference="../../../../../../../../edu.asu.jmars.layer.SavedLayer/createParms/mapsources/edu.asu.jmars.layer.map2.WMSMapSource/server"/>
+                <title>TES Thermal Inertia (Christensen) - Numeric</title>
+                <abstractText>Citation: Christensen, P. R., and H. J. Moore (1992), The martian surface layer, in Mars, edited by H. H. Kieffer, et al., pp. 686-729, University of Arizona Press, Tucson, AZ.</abstractText>
+                <units>J m-2 K-1 sec-1/2</units>
+                <categories>
+                  <string-array>
+                    <string>By Instrument</string>
+                    <string>TES</string>
+                  </string-array>
+                  <string-array>
+                    <string>By Type</string>
+                    <string>Surface Properties</string>
+                  </string-array>
+                </categories>
+                <latLonBBox serialization="custom">
+                  <unserializable-parents/>
+                  <edu.asu.jmars.swing.SerializableRectangle2D>
+                    <double>-180.0</double>
+                    <double>-90.0</double>
+                    <double>360.0</double>
+                    <double>180.0</double>
+                  </edu.asu.jmars.swing.SerializableRectangle2D>
+                </latLonBBox>
+                <hasNumericKeyword>true</hasNumericKeyword>
+                <hasElevationKeyword>false</hasElevationKeyword>
+                <hasGeologicKeyword>false</hasGeologicKeyword>
+                <maxPPD>8.0</maxPPD>
+                <xOffset>0.0</xOffset>
+                <yOffset>0.0</yOffset>
+              </edu.asu.jmars.layer.map2.WMSMapSource>
+            </mapSources>
+            <innerStages>
+              <edu.asu.jmars.layer.map2.Stage-array/>
+            </innerStages>
+          </edu.asu.jmars.layer.map2.msd.PipelineModel_-SavedState>
+        </edu.asu.jmars.layer.map2.msd.PipelineModel>
+      </chartPPM>
+      <layerParams>
+        <name>Thermal Inertia</name>
+        <category>Home</category>
+        <subcategory></subcategory>
+        <topic>Common Global Maps</topic>
+        <advancedOnly>false</advancedOnly>
+        <type>map</type>
+        <options>
+          <string>TES_Thermal_Inertia</string>
+          <string>TES_Thermal_Inertia_numeric</string>
+        </options>
+        <citation>Christensen, P. R., and H. J. Moore (1992), The martian surface layer, in Mars, edited by H. H. Kieffer, et al., pp. 686-729, University of Arizona Press, Tucson, AZ.</citation>
+        <description>This numeric map shows TES thermal inertia of the surface of Mars. Maps are derived from TES thermal bolometer data collected between 1997 and 2003. See CHRISTENSEN1992 for more information. The graphic data for this product is also available (TES_100128).</description>
+        <id>4246</id>
+        <layergroup>basic</layergroup>
+        <units>J m-2 K-1 sec-1/2</units>
+        <links></links>
+        <servers/>
+        <customMapOwnerFlag>false</customMapOwnerFlag>
+        <tempManualId>10000</tempManualId>
+        <lp__version>1.0</lp__version>
+      </layerParams>
+    </createParms>
+    <viewParms>
+      <entry>
+        <string>selectedIndex</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>pannerEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>tooltipsDisabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>3dEnabled</string>
+        <boolean>false</boolean>
+      </entry>
+      <entry>
+        <string>alpha</string>
+        <float>1.0</float>
+      </entry>
+      <entry>
+        <string>mainEnabled</string>
+        <boolean>true</boolean>
+      </entry>
+      <entry>
+        <string>docked</string>
+        <boolean>false</boolean>
+      </entry>
+    </viewParms>
+    <alpha>1.0</alpha>
+    <showMain>true</showMain>
+    <showPanner>true</showPanner>
+    <bodyName>Mars</bodyName>
+    <versionNumber>5.3.15.6</versionNumber>
+    <isOverlay>false</isOverlay>
+  </edu.asu.jmars.layer.SavedLayer>
+</list>

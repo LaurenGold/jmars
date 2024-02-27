@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<theme>
+	<background>
+		<main>rgb(254,254,254)</main>
+		<contrast>rgb(147,147,147)</contrast>
+		<highlight>rgb(212,117,0)</highlight>
+		<highlight_contrast>rgb(212,117,0)</highlight_contrast>
+		<alternate_contrast>rgb(147, 147, 147)</alternate_contrast>
+		<alternate_contrast_bright>rgb(241, 125, 125)</alternate_contrast_bright>
+		<alternate_contrast_soft>rgb(0,164,166)</alternate_contrast_soft>
+		<scrollbar>rgb(147,147,147)</scrollbar>
+		<progressbar>rgb(67,178,175)</progressbar>
+		<border>rgb(235, 235, 235)</border>
+		<secondary_border>rgb(82,86,101)</secondary_border>
+	</background>
+	<action>
+		<main>rgb(0,164,166)</main>
+		<contrast>rgb(0,164,166)</contrast> 
+		<disabled>rgb(213,213,213)</disabled>
+		<foreground>rgb(255,255,255)</foreground>
+		<disabled_foreground>rgb(0,164,166)</disabled_foreground>
+		<border>rgb(147, 147, 147)</border>
+		<image_on>rgb(82,86,101)</image_on>
+		<image_off>rgb(82,86,101)</image_off>
+		<toggle_on>rgb(66,179,176)</toggle_on>
+		<toggle_off>rgb(213,213,213)</toggle_off>
+		<line_active>rgb(212,117,0)</line_active>
+		<line_inactive>rgb(82,86,101)</line_inactive>
+	</action>
+	<text>
+		<main>rgb(82,86,101)</main>
+		<disabled>rgb(170,170,170)</disabled>
+		<link>rgb(251,193,91)</link>
+		<highlight>rgb(249, 192, 98)</highlight>
+	</text>
+	<selection>
+		<main>rgb(126, 132, 153)</main>
+		<foreground>rgb(213,213,213)</foreground>
+		<foreground_contrast>rgb(0,0,0)</foreground_contrast>
+	</selection>
+	<row>
+		<alternate>rgb(59, 62, 69)</alternate>
+		<border>rgb(151,151,151)</border> 
+	</row>
+	<image>
+		<fill>rgb(235,235,235)</fill>
+		<selection_fill>rgb(212,117,0)</selection_fill>
+		<layer>rgb(0,101,99)</layer>
+		<link>rgb(66, 179, 176)</link>
+	</image>
+	<settings>
+		<button_default_follows_focus>true</button_default_follows_focus>
+		<button_focusable>true</button_focusable>
+		<button_arc_size>12</button_arc_size>
+		<tree_paint_lines>false</tree_paint_lines>
+		<table_focusable>true</table_focusable>
+		<table_alternate_row_color>true</table_alternate_row_color>
+		<combobox_enable_hover>false</combobox_enable_hover>
+		<table_row_height>28</table_row_height>
+		<scrollbar_width>10</scrollbar_width>
+		<progressbar_border_thickness>2</progressbar_border_thickness>
+		<menubar_item_spacing>35</menubar_item_spacing>
+		<filechooser_img_scaled_width>27</filechooser_img_scaled_width>
+		<filechooser_img_scaled_height>16</filechooser_img_scaled_height>
+		<tab_space>20</tab_space>
+		<tab_indent>4</tab_indent>  	
+	</settings>
+</theme>
+
