@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://ms-lunaserv.mars.asu.edu/wms_1.1.1_capabilities.dtd">
+
+<WMT_MS_Capabilities version="1.1.1">
+  <Service>
+    <Name>OGC:WMS</Name>
+    <Title>Space Exploration Resources - Lunaserv</Title>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+    <ContactInformation/>
+    <Fees>None</Fees>
+    <AccessConstraints>None</AccessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/png</Format>
+        <Format>image/tiff</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/gif</Format>
+        <Format>image/pnm</Format>
+        <Format>image/vicar</Format>
+        <Format>application/x-cesium-terrain</Format>
+        <Format>image/tiff; mode=32bit</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/yaml</Format>
+        <Format>text/html</Format>
+        <Format>application/vnd.ogc.gml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+      <Format>application/vnd.ogc.se_inimage</Format>
+      <Format>application/vnd.ogc.se_blank</Format>
+    </Exception>
+    <VendorSpecificCapabilities/>
+    <Layer queryable="0" opaque="0" noSubsets="0">
+      <Title>Lunaserv</Title>
+      <SRS>SOSG:1,up_lon,up_lat</SRS>
+      <SRS>JMARS:1,up_lon,up_lat</SRS>
+      <SRS>AUTO:42003,9001,c_lon,c_lat</SRS>
+      <SRS>EPSG:4326</SRS>
+      <SRS>EPSG:900913</SRS>
+      <SRS>EPSG:3857</SRS>
+      <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      <BoundingBox SRS="SOSG:1,up_lon,up_lat" minx="-180.000" miny="-180.000" maxx="180.000" maxy="180.000"/>
+      <BoundingBox SRS="JMARS:1,up_lon,up_lat" minx="-180.000" miny="-90.000" maxx="180.000" maxy="90.000"/>
+      <BoundingBox SRS="AUTO:42003,9001,c_lon,c_lat" minx="-6378137.000" miny="-6378137.000" maxx="6378137.000" maxy="6378137.000"/>
+      <BoundingBox SRS="EPSG:4326" minx="" miny="" maxx="" maxy=""/>
+      <BoundingBox SRS="EPSG:900913" minx="" miny="" maxx="" maxy=""/>
+      <BoundingBox SRS="EPSG:3857" minx="" miny="" maxx="" maxy=""/>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_crism_green_100m_v2</Name>
+        <Title>MOCAAS CRISM Green 100m v2</Title>
+        <Abstract>MOCAAS CRISM Green 100m v2. Poly hydrated and hydroxilated sulfate salts (or locally: zeolites).</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CRISM</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my32_spring_18mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 32, Spring, 18m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 18m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:3293.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-80.43493611111111" maxx="180" maxy="-90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my28_summer_6mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 28, Summer, 6m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 6m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:9879.606675</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-82.23559722222222" maxx="180" maxy="-90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my28_summer_18mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 28, Summer, 18m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 18m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:3293.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-79.69014166" maxx="180" maxy="-90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_omega_red_500m_v2</Name>
+        <Title>MOCAAS OMEGA Red 500m v2</Title>
+        <Abstract>MOCAAS OMEGA RED 500m v2, Fe/Mg-rich phyllosilicates (clays)</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//OMEGA</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mc13e_hmc_co5ps</Name>
+        <Title>MC13E_HMC_CO5PS</Title>
+        <Abstract>MC13E_HMC_CO5PS</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//HRSC</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Topography//HRSC</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="67.4997972" miny="-0.0001056" maxx="90.0001167" maxy="30.0000389"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_omega_orange_500m_v2</Name>
+        <Title>MOCAAS OMEGA Orange 500m v2</Title>
+        <Abstract>MOCAAS OMEGA ORANGE 500m v2, Carbonate salts (or locally: serpentine group phyllosilicates)</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//OMEGA</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_crism_red_100m_v2</Name>
+        <Title>MOCAAS CRISM Red 100m v2</Title>
+        <Abstract>MOCAAS CRISM Red 100m v2. Fe/Mg-rich phyllosilicates (clays).</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CRISM</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_grid_32</Name>
+        <Title>Grid test 32ppd, 32ppd</Title>
+        <Abstract>Grid of 32ppd, 32-bit float values</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>numeric</Keyword>
+          <Keyword>units:unitless</Keyword>
+          <Keyword>nullvalue:0.0</Keyword>
+          <Keyword>NullValue:0.0</Keyword>
+          <Keyword>maxPPD:32.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//GRID</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my33_summer_18mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 33, Summer, 18m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 18m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:3293.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-80.65456666" maxx="180" maxy="-90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_grid_8</Name>
+        <Title>Grid test 32ppd, 8-bit</Title>
+        <Abstract>Grid of 32ppd, 8-bit values</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:32.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//GRID</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my30_summer_24mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 30, Summer, 24m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 24m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:2469.998681246250</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-80.437172222222" maxx="180" maxy="-90"/>
+      </Layer>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_themis_day_ir_colorized_esd</Name>
+        <Title>THEMIS Day IR -- Colorized by Elevation</Title>
+        <Abstract>THEMIS Day IR global mosaic colorized using MOLA elevation data and a color theme from Extra Small Design. Date of ingest 11/1/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//THEMIS//Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Mosaics//THEMIS</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mc20w_hmc_da5cs</Name>
+        <Title>MC20W_HMC_DA5CS</Title>
+        <Abstract>MC20W_HMC_DA5CS</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//HRSC</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Topography//HRSC</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-0.002953" miny="-30.000567" maxx="22.503694" maxy="0.001267"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my31_summer_18mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 31, Summer, 18m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 18m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:3293.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-80.079963888" maxx="180" maxy="-90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_nomenclature</Name>
+        <Title>Mars Nomenclature</Title>
+        <Abstract>Gazetteer of Planetary Nomenclature International Astronomical Union (IAU) Working Group for Planetary System Nomenclature (WGPSN)</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my32_summer_18mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 32, Summer, 18m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 18m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:3293.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-80.4168611111" maxx="180" maxy="-90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mc20e_hmc_da5cs</Name>
+        <Title>MC20E_HMC_DA5CS</Title>
+        <Abstract>MC20E_HMC_DA5CS</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//HRSC</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Topography//HRSC</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="22.496944" miny="-30.003097" maxx="45.003592" maxy="0.002953"/>
+      </Layer>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_ctx_128ppd_v1_reduced</Name>
+        <Title>128ppd CTX Reduced Scale Mosaic v1.0</Title>
+        <Abstract>128ppd CTX Reduced Scale Mosaic v1.0</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_crism_blue_100m_v2</Name>
+        <Title>MOCAAS CRISM Blue 100m v2</Title>
+        <Abstract>MOCAAS CRISM Blue 100m v2. Mono hydrated sulfate salts.</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CRISM</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_omega_blue_500m_v2</Name>
+        <Title>MOCAAS OMEGA Blue 500m v2</Title>
+        <Abstract>MOCAAS OMEGA BLUE 500m v2, Mono hydrated sulfate salts</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//OMEGA</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mc11w_hmc_da5cs</Name>
+        <Title>MC11W_HMC_DA5CS</Title>
+        <Abstract>MC11W_HMC_DA5CS</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//HRSC</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Topography//HRSC</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-45.000217" miny="-0.003797" maxx="-22.497789" maxy="30.002253"/>
+      </Layer>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_emm_exi_global_mosaic</Name>
+        <Title>EMM/EXI Global Color Mosaic</Title>
+        <Abstract>Over 3000 observations from the Emirates eXploration Imager (EXI) instrument on board the Hope probe were stitched together to create this color composite global image of Mars. Special thanks to Dr. Dimitra Atri, who kindly provided ASU personnel with this map. ASU data ingest 8/8/23.</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//EMM/EXI</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Mosaic</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_viking</Name>
+        <Title>Viking Merged Color Mosaic</Title>
+        <Abstract>Viking color mosaic sharpened with MDIM 1.0. 64ppd/920m. NASA Viking Orbiter.</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mc11e_hmc_co5ps</Name>
+        <Title>MC11E_HMC_CO5PS</Title>
+        <Abstract>MC11E_HMC_CO5PS</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//HRSC</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Topography//HRSC</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-22.5" miny="-0.000106" maxx="0.016" maxy="30.000039"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mc11w_hmc_co5ps</Name>
+        <Title>MC11W_HMC_CO5PS</Title>
+        <Abstract>MC11W_HMC_CO5PS</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//HRSC</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Topography//HRSC</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-45.000111" miny="-0.000106" maxx="0.016" maxy="30.000039"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_grid_16</Name>
+        <Title>Grid test 32ppd, 16-bit</Title>
+        <Abstract>Grid of 32ppd, 16-bit values</Abstract>
+        <KeywordList>
+          <Keyword>numeric</Keyword>
+          <Keyword>units:unitless</Keyword>
+          <Keyword>nullvalue:0.0</Keyword>
+          <Keyword>NullValue:0.0</Keyword>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:32.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//GRID</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_nagios_grid_map</Name>
+        <Title>Nagios Grid Map</Title>
+        <Abstract>Test grid map.</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>nagios_test</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_crism_cyan_100m_v2</Name>
+        <Title>MOCAAS CRISM Cyan 100m v2</Title>
+        <Abstract>MOCAAS CRISM Cyan 100m v2. Al-rich phyllosilicates (clays) and hydrated (opalized) silica.</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CRISM</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_crism_orange_100m_v2</Name>
+        <Title>MOCAAS CRISM Orange 100m v2</Title>
+        <Abstract>MOCAAS CRISM Orange 100m v2. Carbonate salts (or locally: serpentine group phyllosilicates).</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CRISM</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mc11e_hmc_da5cs</Name>
+        <Title>MC11E_HMC_DA5CS</Title>
+        <Abstract>MC11E_HMC_DA5CS</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//HRSC</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Topography//HRSC</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-22.501164" miny="-0.002953" maxx="0.001267" maxy="30.003097"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_omega_cyan_500m_v2</Name>
+        <Title>MOCAAS OMEGA Cyan 500m v2</Title>
+        <Abstract>MOCAAS OMEGA CYAN 500m v2, Al-rich phyllosilicates (clays) and hydrated (opalized) silica</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//OMEGA</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my31_spring_18mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 31, Spring, 18m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 18m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:3293.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-80.4349361111111" maxx="180" maxy="-90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mocaas_2023-11-14_omega_green_500m_v2</Name>
+        <Title>MOCAAS OMEGA Green 500m v2</Title>
+        <Abstract>MOCAAS OMEGA GREEN 500m v2, Poly hydrated and hydroxilated sulfate salts (or locally: zeolites)</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>NullValue:0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//OMEGA</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Composition//MOCAAS Mineral Maps</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_mc13e_hmc_da5cs</Name>
+        <Title>MC13E_HMC_DA5CS</Title>
+        <Abstract>MC13E_HMC_DA5CS</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//HRSC</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Topography//HRSC</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="67.497583" miny="-0.003797" maxx="90.000011" maxy="30.002253"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my30_spring_24mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 30, Spring, 24m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 24m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:2469.998681246250</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-80.4980861111111" maxx="180" maxy="-90"/>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0" noSubsets="0">
+        <Name>mars_sp_my34_summer_18mpp</Name>
+        <Title>CTX South Pole Mosaic, MY 34, Summer, 18m/pixel</Title>
+        <Abstract>CTX South Pole Mosaic, 18m/p. Provided by Peter Thomas. ASU ingest 7/26/19</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>maxPPD:3293.0</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Type//Polar Mosaics</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX//Polar Mosaics</Keyword>
+          <Keyword>nullvalue:0</Keyword>
+          <Keyword>NullValue:0</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-80.544969444" maxx="180" maxy="-90"/>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMT_MS_Capabilities>

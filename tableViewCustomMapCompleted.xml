@@ -1,0 +1,75 @@
+<map>
+  <entry>
+    <string>visibleColumns</string>
+    <linked-hash-set>
+      <string>ID</string>
+      <string>Map Name</string>
+      <string>Status</string>
+      <string>Filename</string>
+      <string>Note</string>
+      <string>Upload Date</string>
+    </linked-hash-set>
+  </entry>
+  <entry>
+    <string>columnOrder</string>
+    <linked-hash-map>
+      <entry>
+        <string>ID</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>Map Name</string>
+        <int>1</int>
+      </entry>
+      <entry>
+        <string>Status</string>
+        <int>2</int>
+      </entry>
+      <entry>
+        <string>Filename</string>
+        <int>3</int>
+      </entry>
+      <entry>
+        <string>Note</string>
+        <int>4</int>
+      </entry>
+      <entry>
+        <string>Upload Date</string>
+        <int>5</int>
+      </entry>
+    </linked-hash-map>
+  </entry>
+  <entry>
+    <string>sortOrder</string>
+    <linked-hash-map/>
+  </entry>
+  <entry>
+    <string>columnWidths</string>
+    <map>
+      <entry>
+        <int>0</int>
+        <int>60</int>
+      </entry>
+      <entry>
+        <int>1</int>
+        <int>150</int>
+      </entry>
+      <entry>
+        <int>2</int>
+        <int>220</int>
+      </entry>
+      <entry>
+        <int>3</int>
+        <int>300</int>
+      </entry>
+      <entry>
+        <int>4</int>
+        <int>300</int>
+      </entry>
+      <entry>
+        <int>6</int>
+        <int>200</int>
+      </entry>
+    </map>
+  </entry>
+</map>

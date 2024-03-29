@@ -35,6 +35,9 @@ import edu.asu.jmars.util.DebugLog;
 import edu.asu.jmars.util.HVector;
 import edu.asu.jmars.util.MovableList;
 import edu.asu.jmars.util.Util;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 /**
  ** The Swing component that handles visually displaying a stack of
@@ -386,9 +389,9 @@ public class LViewManager extends JLayeredPane {
 	
 	public Point2D[] getWorldBoundingPoints() {
 		Rectangle screen = Main.testDriver.mainWindow.getProj().getScreenWindow();
-
-		// swap Y coords since screen coords have origin in upper left corner
+		//Rectangle full_screen_bounds = Main.testDriver.getParent().getBounds();
 		
+		// swap Y coords since screen coords have origin in upper left corner
 		Point2D min = Main.testDriver.mainWindow.getProj().createScreen().toWorld(screen.getMinX(), screen.getMaxY());
 		Point2D max = Main.testDriver.mainWindow.getProj().createScreen().toWorld(screen.getMaxX(), screen.getMinY());
 
@@ -405,10 +408,51 @@ public class LViewManager extends JLayeredPane {
 		Point2D[] ret = new Point2D[2];
 		ret[0] = min;
 		ret[1] = max;
-		log.aprintln("screen x"+ screen.getMinX() +"screen y"+ screen.getMinY());
-		log.aprintln("screen x"+ screen.getMinX()+"screen y"+ screen.getMinY());
+		
+		//lg code
+		//Gets the location of this component in the form of a point specifying the component's top-left corner in the screen's coordinate space.
+		Point2D mainWindow_topleft_abspx = Main.testDriver.getParent().getParent().getLocationOnScreen();//absolute
+		//Returns the size of this component 
+		Dimension mainWindow_dims_abspx = Main.testDriver.getParent().getParent().getSize();//absolute
+		Dimension pixSize = getProj().getScreenSize();
+		Rectangle2D pixSizeWorld = projection.getWorldWindow();
+		Rectangle pixSizeWindow = projection.getScreenWindow();//same as screen size... I think this is absolute pixels....
+		log.aprintln("image pix size hack" + pixSize + "world" + pixSizeWorld+ "window"+ pixSizeWindow);
+		try {
+				String currentDirectory = System.getProperty("user.dir");
+				String filename = currentDirectory + "\\" + "gis_corners.txt";
+				
+				//String filename = "\\jmars_src_cg\\gis_corners.txt";
+				BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
+				for(int i = 0; i < 10; i++) {
+					//map win corners absolute
+					Point2D mapWindow_topLeftCorner_abspx = Main.testDriver.mainWindow.getLocationOnScreen(); //absolute
+			        writer.write("mapWindow_topLeftCorner"+mapWindow_topLeftCorner_abspx.toString()); 
+			        writer.newLine();
+			        Dimension mapWindow_dims_abspx = Main.testDriver.mainWindow.getSize(); //absolute
+			        writer.write("mapWindow_dims_abspx"+mapWindow_dims_abspx.toString());
+			        writer.newLine();
+			        writer.write("mainWindow_dims_abspx"+mainWindow_dims_abspx);
+			        writer.newLine();
+			        writer.write("mainWindow_topLeftCorner_abspx"+mainWindow_topleft_abspx);
+			        writer.newLine();
+			        Point2D spatial_corner = Main.testDriver.mainWindow.getProj().screen.toSpatial(screen.getX(),screen.getY());//, screen.getCenterY()
+			        Point2D spatial_center = Main.testDriver.mainWindow.getProj().screen.toSpatial(screen.getCenterX(),screen.getCenterY());
+			        writer.write("spatial_corner:"+ spatial_corner.toString());
+			        writer.newLine();
+			        writer.write("spatial_center:"+ spatial_center.toString());
+			        writer.newLine();
+			        writer.write("zoom = "+ Main.testDriver.mainWindow.getZoomManager().getZoomPPD());
+			        writer.newLine();
+			       
+				}
+				writer.close();
+		}catch (IOException e) {
+			System.err.println("Error writing to file: " + e.getMessage());
+		}
 		
 		log.aprintln("ret" + ret[0] + ret[1]);
+		//end lg
 		return ret;
 	}
 	
@@ -416,7 +460,7 @@ public class LViewManager extends JLayeredPane {
 		Rectangle screen = Main.testDriver.mainWindow.getProj().getScreenWindow();
 		
 		Point2D spatial = Main.testDriver.mainWindow.getProj().screen.toSpatial(screen.getCenterX(), screen.getCenterY());
-		
+		log.aprintln("spatial center px:"+ spatial.toString());
 		return spatial;
 		
 	}

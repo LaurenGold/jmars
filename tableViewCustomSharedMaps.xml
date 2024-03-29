@@ -1,0 +1,48 @@
+<map>
+  <entry>
+    <string>visibleColumns</string>
+    <linked-hash-set>
+      <string>Shared Map</string>
+      <string>Shared Users</string>
+      <string>Shared Groups</string>
+    </linked-hash-set>
+  </entry>
+  <entry>
+    <string>columnOrder</string>
+    <linked-hash-map>
+      <entry>
+        <string>Shared Map</string>
+        <int>0</int>
+      </entry>
+      <entry>
+        <string>Shared Users</string>
+        <int>1</int>
+      </entry>
+      <entry>
+        <string>Shared Groups</string>
+        <int>2</int>
+      </entry>
+    </linked-hash-map>
+  </entry>
+  <entry>
+    <string>sortOrder</string>
+    <linked-hash-map/>
+  </entry>
+  <entry>
+    <string>columnWidths</string>
+    <map>
+      <entry>
+        <int>0</int>
+        <int>200</int>
+      </entry>
+      <entry>
+        <int>1</int>
+        <int>300</int>
+      </entry>
+      <entry>
+        <int>2</int>
+        <int>300</int>
+      </entry>
+    </map>
+  </entry>
+</map>

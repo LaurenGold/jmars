@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://ms-lunaserv.mars.asu.edu/wms_1.1.1_capabilities.dtd">
+
+<WMT_MS_Capabilities version="1.1.1">
+  <Service>
+    <Name>OGC:WMS</Name>
+    <Title>Space Exploration Resources - Lunaserv</Title>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+    <ContactInformation/>
+    <Fees>None</Fees>
+    <AccessConstraints>None</AccessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/png</Format>
+        <Format>image/tiff</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/gif</Format>
+        <Format>image/pnm</Format>
+        <Format>image/vicar</Format>
+        <Format>application/x-cesium-terrain</Format>
+        <Format>image/tiff; mode=32bit</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-ctx.mars.asu.edu:8080/StampServer-1.2/wms?" xlink:type="simple"></OnlineResource>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-ctx.mars.asu.edu:8080/StampServer-1.2/wms?" xlink:type="simple"></OnlineResource>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/yaml</Format>
+        <Format>text/html</Format>
+        <Format>application/vnd.ogc.gml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ms-lunaserv.mars.asu.edu/?" xlink:type="simple"></OnlineResource>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+      <Format>application/vnd.ogc.se_inimage</Format>
+      <Format>application/vnd.ogc.se_blank</Format>
+    </Exception>
+    <VendorSpecificCapabilities/>
+    <Layer queryable="0" opaque="0" noSubsets="0">
+      <Title>Lunaserv</Title>
+      <SRS>SOSG:1,up_lon,up_lat</SRS>
+      <SRS>JMARS:1,up_lon,up_lat</SRS>
+      <SRS>AUTO:42003,9001,c_lon,c_lat</SRS>
+      <SRS>EPSG:4326</SRS>
+      <SRS>EPSG:900913</SRS>
+      <SRS>EPSG:3857</SRS>
+      <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      <BoundingBox SRS="SOSG:1,up_lon,up_lat" minx="-180.000" miny="-180.000" maxx="180.000" maxy="180.000"/>
+      <BoundingBox SRS="JMARS:1,up_lon,up_lat" minx="-180.000" miny="-90.000" maxx="180.000" maxy="90.000"/>
+      <BoundingBox SRS="AUTO:42003,9001,c_lon,c_lat" minx="-6378137.000" miny="-6378137.000" maxx="6378137.000" maxy="6378137.000"/>
+      <BoundingBox SRS="EPSG:4326" minx="" miny="" maxx="" maxy=""/>
+      <BoundingBox SRS="EPSG:900913" minx="" miny="" maxx="" maxy=""/>
+      <BoundingBox SRS="EPSG:3857" minx="" miny="" maxx="" maxy=""/>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_ctx_global_mosaic_v1_test</Name>
+        <Title>CTX Global Mosaic, (Murray Lab)</Title>
+        <Abstract>CTX Global Mosaic</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>CTX</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX</Keyword>
+          <Keyword>split_map:ctx_128ppd_reduced,ctx_global_mosaic_v1_test,256</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_ctx_global_mosaic_v1_m4</Name>
+        <Title>CTX Global Mosaic, v1.0 (Murray Lab)</Title>
+        <Abstract>CTX Global Mosaic (version 1.0)</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>CTX</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX</Keyword>
+          <Keyword>split_map:ctx_128ppd_reduced,ctx_global_mosaic_v1_m4,256</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_ctx_global_mosaic_v1</Name>
+        <Title>CTX Global Mosaic, (Murray Lab)</Title>
+        <Abstract>CTX Global Mosaic</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>CTX</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX</Keyword>
+          <Keyword>split_map:ctx_128ppd_reduced,ctx_global_mosaic_v1,256</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_xyz_global_mosaic_v1_m4</Name>
+        <Title>CTX Global Mosaic, v1.0 (Murray Lab)</Title>
+        <Abstract>CTX Global Mosaic (version 1.0)</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>CTX</Keyword>
+          <Keyword>jmarsCategory:By Lunaserv//By Instrument//CTX</Keyword>
+          <Keyword>split_map:ctx_128ppd_reduced,ctx_global_mosaic_v1_m4,256</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+      <Layer queryable="0" opaque="1" cascaded="0" noSubsets="0">
+        <Name>mars_auto_zoom</Name>
+        <Title>Explore Mars</Title>
+        <Abstract>Dynamic Mix of MOLA, THEMIS, and CTX Global mosaics</Abstract>
+        <KeywordList>
+          <Keyword>mars</Keyword>
+          <Keyword>AutoZoom</Keyword>
+          <Keyword>jmarsCategory:Auto Zoom</Keyword>
+          <Keyword>split_names:THEMIS Global Mosaic w/ MOLA Color,64,THEMIS Global Mosaic Grayscale,1024,CTX Global Mosaic</Keyword>
+        </KeywordList>
+        <LatLonBoundingBox minx="-180" miny="-90" maxx="180" maxy="90"/>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMT_MS_Capabilities>

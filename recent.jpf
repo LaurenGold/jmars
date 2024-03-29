@@ -3,128 +3,282 @@
     <string>Mars</string>
     <list>
       <edu.asu.jmars.places.Place>
-        <name>0°N, 0°E</name>
+        <name>9.406�N, 143.438�E</name>
         <lonLat class="java.awt.geom.Point2D$Double">
-          <x>0.0</x>
-          <y>5.7055094273191895E-15</y>
+          <x>216.56249999999997</x>
+          <y>9.40625</y>
         </lonLat>
         <projCenterLonLat class="java.awt.geom.Point2D$Double">
           <x>0.0</x>
           <y>0.0</y>
         </projCenterLonLat>
-        <ppd>32</ppd>
+        <ppd>64</ppd>
         <offsets/>
         <labels/>
       </edu.asu.jmars.places.Place>
       <edu.asu.jmars.places.Place>
-        <name>-9.156°N, 2.406°E</name>
+        <name>12.656�N, 141.938�E</name>
         <lonLat class="java.awt.geom.Point2D$Double">
-          <x>357.59375</x>
-          <y>-9.156250000000007</y>
+          <x>218.0625</x>
+          <y>12.656249999999998</y>
         </lonLat>
         <projCenterLonLat class="java.awt.geom.Point2D$Double">
           <x>0.0</x>
           <y>0.0</y>
         </projCenterLonLat>
-        <ppd>32</ppd>
+        <ppd>128</ppd>
         <offsets/>
         <labels/>
       </edu.asu.jmars.places.Place>
       <edu.asu.jmars.places.Place>
-        <name>-12.125°N, 11.469°E</name>
+        <name>18.408�N, 77.687�E</name>
         <lonLat class="java.awt.geom.Point2D$Double">
-          <x>348.53125</x>
-          <y>-12.125000000000007</y>
+          <x>282.3127</x>
+          <y>18.408200000000008</y>
         </lonLat>
         <projCenterLonLat class="java.awt.geom.Point2D$Double">
           <x>0.0</x>
           <y>0.0</y>
         </projCenterLonLat>
-        <ppd>32</ppd>
+        <ppd>128</ppd>
         <offsets/>
         <labels/>
       </edu.asu.jmars.places.Place>
       <edu.asu.jmars.places.Place>
-        <name>-5.719°N, 339.969°E</name>
+        <name>18.383�N, 77.672�E</name>
         <lonLat class="java.awt.geom.Point2D$Double">
-          <x>20.03124999999998</x>
-          <y>-5.718750000000006</y>
+          <x>282.328125</x>
+          <y>18.382812499999996</y>
         </lonLat>
         <projCenterLonLat class="java.awt.geom.Point2D$Double">
           <x>0.0</x>
           <y>0.0</y>
         </projCenterLonLat>
-        <ppd>32</ppd>
+        <ppd>256</ppd>
         <offsets/>
         <labels/>
       </edu.asu.jmars.places.Place>
       <edu.asu.jmars.places.Place>
-        <name>-5.75°N, 333.656°E</name>
+        <name>18.93�N, 78.18�E</name>
         <lonLat class="java.awt.geom.Point2D$Double">
-          <x>26.34375000000001</x>
-          <y>-5.750000000000005</y>
+          <x>281.8203125</x>
+          <y>18.929687499999993</y>
         </lonLat>
         <projCenterLonLat class="java.awt.geom.Point2D$Double">
           <x>0.0</x>
           <y>0.0</y>
         </projCenterLonLat>
-        <ppd>32</ppd>
+        <ppd>128</ppd>
         <offsets/>
         <labels/>
       </edu.asu.jmars.places.Place>
       <edu.asu.jmars.places.Place>
-        <name>-2.781°N, 318.656°E</name>
+        <name>18.656�N, 75.953�E</name>
         <lonLat class="java.awt.geom.Point2D$Double">
-          <x>41.343750000000014</x>
-          <y>-2.781250000000006</y>
+          <x>284.046875</x>
+          <y>18.656249999999996</y>
         </lonLat>
         <projCenterLonLat class="java.awt.geom.Point2D$Double">
           <x>0.0</x>
           <y>0.0</y>
         </projCenterLonLat>
-        <ppd>32</ppd>
+        <ppd>64</ppd>
         <offsets/>
         <labels/>
       </edu.asu.jmars.places.Place>
       <edu.asu.jmars.places.Place>
-        <name>1°N, 306.281°E</name>
+        <name>21.047�N, 80.797�E</name>
         <lonLat class="java.awt.geom.Point2D$Double">
-          <x>53.718750000000014</x>
-          <y>0.9999999999999944</y>
+          <x>279.203125</x>
+          <y>21.046874999999996</y>
         </lonLat>
         <projCenterLonLat class="java.awt.geom.Point2D$Double">
           <x>0.0</x>
           <y>0.0</y>
         </projCenterLonLat>
-        <ppd>32</ppd>
+        <ppd>64</ppd>
         <offsets/>
         <labels/>
       </edu.asu.jmars.places.Place>
       <edu.asu.jmars.places.Place>
-        <name>6.531°N, 289.094°E</name>
+        <name>23�N, 86.25�E</name>
         <lonLat class="java.awt.geom.Point2D$Double">
-          <x>70.90625</x>
-          <y>6.531249999999997</y>
+          <x>273.75</x>
+          <y>23.0</y>
         </lonLat>
         <projCenterLonLat class="java.awt.geom.Point2D$Double">
           <x>0.0</x>
           <y>0.0</y>
         </projCenterLonLat>
-        <ppd>32</ppd>
+        <ppd>64</ppd>
         <offsets/>
         <labels/>
       </edu.asu.jmars.places.Place>
       <edu.asu.jmars.places.Place>
-        <name>6.156°N, 282.188°E</name>
+        <name>22.859�N, 84.312�E</name>
         <lonLat class="java.awt.geom.Point2D$Double">
-          <x>77.8125</x>
-          <y>6.1562499999999964</y>
+          <x>275.6875</x>
+          <y>22.859374999999996</y>
         </lonLat>
         <projCenterLonLat class="java.awt.geom.Point2D$Double">
           <x>0.0</x>
           <y>0.0</y>
         </projCenterLonLat>
-        <ppd>32</ppd>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>22.891�N, 83.312�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>276.68750000000006</x>
+          <y>22.890624999999996</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>22.922�N, 82�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>278.0</x>
+          <y>22.921875</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>22.891�N, 80.125�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>279.875</x>
+          <y>22.890624999999996</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>22.281�N, 78.312�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>281.6875</x>
+          <y>22.28125</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>22.234�N, 82.625�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>277.37499999999994</x>
+          <y>22.234374999999996</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>22.469�N, 75.969�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>284.03125</x>
+          <y>22.468749999999996</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>24.062�N, 75.844�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>284.15625</x>
+          <y>24.062499999999996</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>23.016�N, 73.531�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>286.46875</x>
+          <y>23.015625</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>24.813�N, 71.984�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>288.015625</x>
+          <y>24.812500000000004</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>25.312�N, 78.094�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>281.90625</x>
+          <y>25.312499999999996</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
+        <offsets/>
+        <labels/>
+      </edu.asu.jmars.places.Place>
+      <edu.asu.jmars.places.Place>
+        <name>25.406�N, 70.609�E</name>
+        <lonLat class="java.awt.geom.Point2D$Double">
+          <x>289.390625</x>
+          <y>25.40625</y>
+        </lonLat>
+        <projCenterLonLat class="java.awt.geom.Point2D$Double">
+          <x>0.0</x>
+          <y>0.0</y>
+        </projCenterLonLat>
+        <ppd>64</ppd>
         <offsets/>
         <labels/>
       </edu.asu.jmars.places.Place>
@@ -132,6 +286,6 @@
   </entry>
   <entry>
     <string>Mars-version</string>
-    <int>8</int>
+    <int>0</int>
   </entry>
 </map>

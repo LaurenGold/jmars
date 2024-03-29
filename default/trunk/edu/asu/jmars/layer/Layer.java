@@ -1678,8 +1678,7 @@ public abstract class Layer implements ProjectionListener
 				Dimension pixSize = getProj().getScreenSize();
 				buffers = newBufferedImageArray(pixSize.width,
 												pixSize.height);
-				log.aprintln("image pix size" + pixSize +"image pix size width" + pixSize.width,
-						"image pix size height" +pixSize.height);
+				
 			 }
 		 }
 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://schemas.opengis.net/wms/1.1.1/capabilities_1_1_1.dtd">
+
+<WMT_MS_Capabilities version="1.1.1" updateSequence="1">
+  <Service>
+    <Name>OGC:WMS</Name>
+    <Title>Custom Maps for vr-demo</Title>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://cm.mars.asu.edu"></OnlineResource>
+    <Fees>None</Fees>
+    <AccessConstraints>None</AccessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>WMS_XML</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://cm.mars.asu.edu"></OnlineResource>
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/png</Format>
+        <Format>image/pnm</Format>
+        <Format>image/vicar</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://ms-custom.mars.asu.edu/?"></OnlineResource>
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+    </Exception>
+    <Layer queryable="0" opaque="0" noSubsets="0">
+      <Title>Custom Maps for vr-demo</Title>
+      <SRS>JMARS:1,up_lon,up_lat</SRS>
+      <SRS>JMARS:0,center_lon,center_lat,lpo,spo,ppd</SRS>
+      <SRS>JMARS:2,center_lon,center_lat,lpo,spo,ppd</SRS>
+      <SRS>JMARS:4</SRS>
+      <SRS>EPSG:4326</SRS>
+      <LatLonBoundingBox minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0"/>
+    </Layer>
+  </Capability>
+</WMT_MS_Capabilities>
